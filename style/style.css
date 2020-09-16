@@ -1,0 +1,344 @@
+/*-----------------------------------------------------------------------------------*/
+/*	00. RESET
+/*-----------------------------------------------------------------------------------*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	01. FONT-FACE
+/*-----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'Bangla MN';
+  src: url("font/Bangla MN.ttc");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bodoni Std';
+  src: url("font/BauerBodoniStd-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Beatrice Display';
+  src: url("font/bea/Beatrice Display Regular Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rock Salt';
+  src: url("style/font/RockSalt-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url("style/font/Arimo/Arimo-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	02. DIVISIONE HOME
+/*-----------------------------------------------------------------------------------*/
+#home_bio_sez {
+  background-color: #EEEEF4;
+  width: 50%;
+  height: 900px;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  display: inline-block;
+  float: left;
+  z-index: 1;
+  cursor: url("images/bio.png"), auto;
+  transition: background-color 1.6s;
+  transition-timing-function: ease;
+}
+
+#home_bio_sez:hover {
+  background-color: #eb4648;
+}
+
+#home_photo_sez {
+  background-image: url("images/pezovon.jpg");
+  background-size: 160%;
+  width: 50%;
+  height: 900px;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  display: inline-block;
+  z-index: 1;
+  cursor: url("images/photos.png"), auto;
+  transition: background-size 5s;
+  transition-timing-function: ease-out;
+}
+
+#home_photo_sez:hover {
+  background-size: 170%;
+}
+
+#scroll_please {
+  position: absolute;
+  width: 2%;
+  left: 49%;
+  top: 88%;
+  border: 2.4px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 15px;
+  z-index: 4;
+  height: 48px;
+  animation: appearRest 2s ease-in-out 0s 1 normal forwards;
+}
+
+#ball{
+  position: absolute;
+  left: 20%;
+  top: 7%;
+  background-color: #fff;
+  width: 60%;
+  height: 18px;
+  z-index: 4;
+  border-radius: 18px;
+  animation: ball 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes ball {
+  0%{
+    top: 7%;
+  }
+  100%{
+    top:50%;
+  }
+}
+
+#big_hi {
+  position: absolute;
+  top: -7%;
+  left: 20.2%;
+  font-family: 'Beatrice Display';
+  font-weight: normal;
+  font-style: italic;
+  font-size: 9.1rem;
+  z-index: 4;
+  color: #38383D;
+  line-height: 63.7%;
+  animation: appearHi 1s ease-out 0.1s 1 normal forwards;
+}
+
+@keyframes appearHi {
+  from {
+    opacity: 0;
+    top: -7%;
+  }
+
+  to {
+    opacity: 1;
+    top: 17%;
+  }
+}
+
+#big_photos {
+  position: absolute;
+  display: inline-block;
+  top: 66%;
+  right: 20%;
+  font-family: 'Beatrice Display';
+  font-weight: normal;
+  font-style: italic;
+  font-size: 9.1rem;
+  z-index: 4;
+  color: #EEEEF4;
+  opacity: 0%;
+  animation: appearPhotos 1.7s ease-in-out 0.7s 1 normal forwards;
+}
+
+@keyframes appearPhotos {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#home_bio_sez img {
+  position: absolute;
+  display: block;
+  top: 28%;
+  left: 29%;
+  z-index: 3;
+  width: 41%;
+  opacity: 0;
+  animation: appearImg 2s ease-in-out 1s 1 normal forwards;
+}
+
+@keyframes appearImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#read_bio {
+  position: absolute;
+  top: 88%;
+  left: 22.5%;
+  display: inline-block;
+  color: #38383D;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+  z-index: 4;
+  cursor: pointer;
+  opacity: 0;
+  animation: appearRest 2s ease-in-out 0s 1 normal forwards;
+}
+
+#cv{
+position: absolute;
+width: 659px;
+height: 53px;
+left: -14%;
+top: 52%;
+z-index:4;
+font-family: 'Arimo';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.2em;
+color: #38383D;
+transform: rotate(-90deg);
+animation: appearRest 2s ease-in-out 0s 1 normal forwards;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	03. NAV home
+/*-----------------------------------------------------------------------------------*/
+#first_home_nav {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  opacity: 0;
+  animation: appearRest 2s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes appearRest {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#fst_hm_contacts {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  display: inline-block;
+  color: #38383D;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#fst_hm_works {
+  position: absolute;
+  top: 70%;
+  right: 8%;
+  display: inline-block;
+  color: #EEEEF4;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#fst_hm_title {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  display: inline-block;
+  color: #38383D;
+  width: 10%;
+}
+
+#fst_hm_title img {
+  width: 100%;
+  display: block;
+}
+
+#fst_hm_title p {
+  font-family: 'Bodoni Std';
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 13px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	03. Frase under landing
+/*-----------------------------------------------------------------------------------*/
+#sentence_div {
+  margin-left: 32%;
+  margin-top: 170px;
+  width: 100%;
+  height: 550px;
+}
+
+#im {
+  font-family: 'Rock Salt';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 29.5745px;
+  line-height: 71px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	00. media height
+/*-----------------------------------------------------------------------------------*/
+@media(min-height:900px) {
+
+  #home_bio_sez {
+    height: 938px;
+  }
+
+  #home_photo_sez {
+    height: 938px;
+  }
+
+  #read_bio {
+    top: 86%;
+  }
+
+  #home_bio_sez img {
+    top: 28%;
+    left: 27%;
+    width: 44%;
+  }
+}
