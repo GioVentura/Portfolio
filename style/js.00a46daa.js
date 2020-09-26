@@ -8841,45 +8841,45 @@ var _default$3 = /*#__PURE__*/function () {
 var _default2 = _default$3;
 exports.default = _default2;
 },{}],"NJSX":[function(require,module,exports) {
-module.exports = "1.dc197a9a.jpg";
+module.exports = "img/1.jpg";
 },{}],"i4z2":[function(require,module,exports) {
-module.exports = "10.5e22fdc3.jpg";
+module.exports = "img/10.jpg";
 },{}],"PKe7":[function(require,module,exports) {
-module.exports = "11.a56b8aeb.jpg";
+module.exports = "img/11.jpg";
 },{}],"CS4A":[function(require,module,exports) {
-module.exports = "12.b5a57fd7.jpg";
+module.exports = "img/12.jpg";
 },{}],"uYgX":[function(require,module,exports) {
-module.exports = "13.3858c623.jpg";
+module.exports = "img/13.jpg";
 },{}],"hIAS":[function(require,module,exports) {
-module.exports = "14.c732d2b3.jpg";
+module.exports = "img/14.jpg";
 },{}],"TjQ6":[function(require,module,exports) {
-module.exports = "15.61b13bcc.jpg";
+module.exports = "img/15.jpg";
 },{}],"AgKW":[function(require,module,exports) {
-module.exports = "16.39461312.jpg";
+module.exports = "img/16.jpg";
 },{}],"oxYq":[function(require,module,exports) {
-module.exports = "17.7c008703.jpg";
+module.exports = "img/17.jpg";
 },{}],"f9Jt":[function(require,module,exports) {
-module.exports = "18.81a1401f.jpg";
+module.exports = "img/18.jpg";
 },{}],"BVGL":[function(require,module,exports) {
-module.exports = "19.6d803788.jpg";
+module.exports = "img/19.jpg";
 },{}],"dFor":[function(require,module,exports) {
-module.exports = "2.3ca6bb44.jpg";
+module.exports = "img/2.jpg";
 },{}],"ctUQ":[function(require,module,exports) {
-module.exports = "20.b400b781.jpg";
+module.exports = "img/20.jpg";
 },{}],"P8tY":[function(require,module,exports) {
-module.exports = "3.a433b89d.jpg";
+module.exports = "img/3.jpg";
 },{}],"kPmT":[function(require,module,exports) {
-module.exports = "4.c6d96be5.jpg";
+module.exports = "img/4.jpg";
 },{}],"VqBz":[function(require,module,exports) {
-module.exports = "5.689b68fd.jpg";
+module.exports = "img/5.jpg";
 },{}],"gtVS":[function(require,module,exports) {
-module.exports = "6.e96dcfff.jpg";
+module.exports = "img/6.jpg";
 },{}],"HYBC":[function(require,module,exports) {
-module.exports = "7.2d66e3ed.jpg";
+module.exports = "img/7.jpg";
 },{}],"KW6U":[function(require,module,exports) {
-module.exports = "8.f4323fe0.jpg";
+module.exports = "img/8.jpg";
 },{}],"xNmy":[function(require,module,exports) {
-module.exports = "9.c9233dac.jpg";
+module.exports = "img/9.jpg";
 },{}],"m7Bz":[function(require,module,exports) {
 module.exports = {
   "1": require("./1.jpg"),
@@ -9203,9 +9203,9 @@ var Menu = /*#__PURE__*/function () {
     }; // the menu item elements (<a>)
 
     this.DOM.menuItems = this.DOM.el.querySelectorAll('.menu__item'); // menu item properties that will animate as we move the mouse around the menu
-    // we will be using interpolation to achieve smooth animations. 
-    // the “previous” and “current” values are the values to interpolate. 
-    // the value applied to the element, this case the image element (this.DOM.reveal) will be a value between these two values at a specific increment. 
+    // we will be using interpolation to achieve smooth animations.
+    // the “previous” and “current” values are the values to interpolate.
+    // the value applied to the element, this case the image element (this.DOM.reveal) will be a value between these two values at a specific increment.
     // the amt is the amount to interpolate.
 
     this.animatableProperties = {
