@@ -30,10 +30,10 @@ body {
 nav hr{
 	height: 0.2px;
 	border: none;
-	width: 74%;
+	width: 70%;
 	color: #EEEEF4; /* old IE */
 	background-color: #EEEEF4; /* Modern Browsers */
-	margin-left: 20%;
+	margin-left: 10%;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -78,6 +78,25 @@ nav hr{
   font-style: normal;
   font-display: swap;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	01. top gioventura
+/*-----------------------------------------------------------------------------------*/
+
+
+#menu_top_links{
+  width: 100%;
+  height: 40px;
+	margin-bottom: 14vh;
+}
+
+
+#menu_top_links img{
+	width: 14%;
+	margin-left: 43%;
+	display: block;
+}
+
 
 /* Page Loader */
 .js .loading::before,
@@ -349,10 +368,10 @@ a:focus {
 		transform: translateY(50%);
 	}
 	.menu {
-		padding-top: 20vh;
+		padding-top: 6vh;
 	}
 	.menu__item {
-    	padding-left: 25vw;
+    	padding-left: 15vw;
     	justify-content: initial;
     }
 	.menu__item-text {
