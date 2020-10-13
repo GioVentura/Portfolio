@@ -134,6 +134,10 @@ nav hr{
 	margin-left: 5%;
 }
 
+.menudx{
+	margin-top: 4%;
+}
+
 /* Page Loader */
 .js .loading::before,
 .js .loading::after {
