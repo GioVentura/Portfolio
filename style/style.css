@@ -40,7 +40,8 @@
 
 @font-face {
   font-family: 'Rock Salt';
-  src: url("style/font/RockSalt-Regular.ttf");
+  src: url('rocksalt-regular-webfont.woff2') format('woff2'),
+       url('rocksalt-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -48,7 +49,8 @@
 
 @font-face {
   font-family: 'Arimo';
-  src: url("style/font/Arimo/Arimo-Regular.ttf");
+  src: url('arimo-regular-webfont.woff2') format('woff2'),
+       url('arimo-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
