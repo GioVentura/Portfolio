@@ -16,7 +16,7 @@ body {
 	--color-link: #EEEEF4;
 	--color-link-hover: #EEEEF4;
 	--color-menu: #EEEEF4;
-	--color-menu-hover: #eb4648;
+	--color-menu-hover: rgb(255, 241, 0);
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	--cursor-stroke: #000;
