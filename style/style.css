@@ -318,6 +318,24 @@ animation: appearRest 2s ease-in-out 0s 1 normal forwards;
   font-size: 29.5745px;
   line-height: 71px;
 }
+/*-----------------------------------------------------------------------------------*/
+/*	00. contacts page
+/*-----------------------------------------------------------------------------------*/
+#fst_hm_bio {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  display: inline-block;
+  color: #EEEEF4;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#video_pilo{
+  width: 100%;
+  margin-top: -3%;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
@@ -340,5 +358,10 @@ animation: appearRest 2s ease-in-out 0s 1 normal forwards;
     top: 28%;
     left: 27%;
     width: 44%;
+  }
+  #video_pilo{
+    width: 103%;
+    margin-top: 0;
+    margin-left: -1%;
   }
 }
