@@ -419,6 +419,11 @@ ul{
   letter-spacing: 0.03em;
 }
 
+#RosolinoPilo:hover,#venturaGio:hover,#numeroTel:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
