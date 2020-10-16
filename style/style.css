@@ -8,7 +8,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+ul{
+  list-style-type: none;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	01. FONT-FACE
 /*-----------------------------------------------------------------------------------*/
@@ -31,7 +33,7 @@
 @font-face {
   font-family: 'Beatrice Display';
   src: url('beatrice_display_regular_italic-webfont.woff2') format('woff2'),
-       url('beatrice_display_regular_italic-webfont.woff') format('woff');
+    url('beatrice_display_regular_italic-webfont.woff') format('woff');
   font-style: normal;
   font-weight: normal;
   font-style: italic;
@@ -41,7 +43,7 @@
 @font-face {
   font-family: 'Rock Salt';
   src: url('rocksalt-regular-webfont.woff2') format('woff2'),
-       url('rocksalt-regular-webfont.woff') format('woff');
+    url('rocksalt-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -50,7 +52,7 @@
 @font-face {
   font-family: 'Arimo';
   src: url('arimo-regular-webfont.woff2') format('woff2'),
-       url('arimo-regular-webfont.woff') format('woff');
+    url('arimo-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -70,7 +72,7 @@
   float: left;
   z-index: 1;
   cursor: url("images/bio.png"), auto;
-  transition: background-color 1.6s;
+  transition: background-color 0.8s;
   transition-timing-function: ease;
 }
 
@@ -111,7 +113,7 @@
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
-#ball{
+#ball {
   position: absolute;
   left: 20%;
   top: 7%;
@@ -124,11 +126,12 @@
 }
 
 @keyframes ball {
-  0%{
+  0% {
     top: 7%;
   }
-  100%{
-    top:50%;
+
+  100% {
+    top: 50%;
   }
 }
 
@@ -219,23 +222,23 @@
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
-#cv{
-position: absolute;
-width: 659px;
-height: 53px;
-left: -14%;
-top: 52%;
-z-index:4;
-font-family: 'Arimo';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-letter-spacing: 0.2em;
-color: #38383D;
-transform: rotate(-90deg);
-animation: appearRest 2s ease-in-out 0s 1 normal forwards;
+#cv {
+  position: absolute;
+  width: 659px;
+  height: 53px;
+  left: -14%;
+  top: 52%;
+  z-index: 4;
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #38383D;
+  transform: rotate(-90deg);
+  animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -310,8 +313,8 @@ animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 /*	03. Frase under landing
 /*-----------------------------------------------------------------------------------*/
 #sentence_div {
-  margin-left: 32%;
-  margin-top: 170px;
+  padding-left: 32%;
+  padding-top: 170px;
   width: 100%;
   height: 550px;
 }
@@ -323,6 +326,7 @@ animation: appearRest 2s ease-in-out 0s 1 normal forwards;
   font-size: 29.5745px;
   line-height: 71px;
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*	00. contacts page
 /*-----------------------------------------------------------------------------------*/
@@ -337,16 +341,88 @@ animation: appearRest 2s ease-in-out 0s 1 normal forwards;
   font-size: 15px;
 }
 
-#video_pilo{
+#video_pilo {
   width: 100%;
   margin-top: -3%;
+}
+
+#basedIn {
+  position: absolute;
+  left: 8.2%;
+  top: 31%;
+  color: #EEEEF4;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+}
+
+#RosolinoPilo {
+  position: absolute;
+  left: 8.2%;
+  top: 33%;
+  color: #EEEEF4;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6em;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+#emailMe {
+  position: absolute;
+  left: 8.2%;
+  top: 50%;
+  color: #EEEEF4;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+}
+
+#venturaGio {
+  position: absolute;
+  left: 8.2%;
+  top: 52%;
+  color: #EEEEF4;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6em;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+#call {
+  position: absolute;
+  left: 8.2%;
+  top: 62%;
+  color: #EEEEF4;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+}
+
+#numeroTel {
+  position: absolute;
+  left: 8.2%;
+  top: 64%;
+  color: #EEEEF4;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6em;
+  line-height: 130%;
+  letter-spacing: 0.03em;
 }
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
 @media(min-height:900px) {
-
   #home_bio_sez {
     height: 938px;
   }
@@ -364,7 +440,8 @@ animation: appearRest 2s ease-in-out 0s 1 normal forwards;
     left: 27%;
     width: 44%;
   }
-  #video_pilo{
+
+  #video_pilo {
     width: 103%;
     margin-top: 0;
     margin-left: -1%;
