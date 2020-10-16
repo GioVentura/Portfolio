@@ -308,7 +308,16 @@ ul{
   text-align: center;
   font-size: 13px;
 }
-
+#fst_hm_works:hover,#fst_hm_bio:hover{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
+}
+#fst_hm_contacts:hover,#read_bio:hover,#cv:hover{
+  color: #000;
+  text-decoration: none;
+  /* text-shadow: 0px 0px 3px rgba(60, 60, 60, 0.18); */
+}
 /*-----------------------------------------------------------------------------------*/
 /*	03. Frase under landing
 /*-----------------------------------------------------------------------------------*/
@@ -422,6 +431,7 @@ ul{
 #RosolinoPilo:hover,#venturaGio:hover,#numeroTel:hover{
   color: #fff;
   text-decoration: none;
+  text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
 }
 
 /*-----------------------------------------------------------------------------------*/
