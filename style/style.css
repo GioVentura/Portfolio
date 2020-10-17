@@ -312,12 +312,12 @@ ul{
   text-align: center;
   font-size: 13px;
 }
-#fst_hm_works:hover,#fst_hm_bio:hover{
+#fst_hm_works:hover,#fst_hm_bio:hover,.social li a:hover{
   color: #fff;
   text-decoration: none;
   text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
 }
-#fst_hm_contacts:hover,#read_bio:hover,#cv:hover{
+#fst_hm_contacts:hover,#read_bio:hover,#cv:hover,{
   color: #000;
   text-decoration: none;
   /* text-shadow: 0px 0px 3px rgba(60, 60, 60, 0.18); */
@@ -374,7 +374,7 @@ ul{
 #RosolinoPilo {
   position: absolute;
   left: 8.2%;
-  top: 33%;
+  top: 34%;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -386,7 +386,7 @@ ul{
 #emailMe {
   position: absolute;
   left: 8.2%;
-  top: 50%;
+  top: 52%;
   color: #EEEEF4;
   font-family: "Arimo";
   font-style: normal;
@@ -398,7 +398,7 @@ ul{
 #venturaGio {
   position: absolute;
   left: 8.2%;
-  top: 52%;
+  top: 54%;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -410,7 +410,7 @@ ul{
 #call {
   position: absolute;
   left: 8.2%;
-  top: 62%;
+  top: 67%;
   color: #EEEEF4;
   font-family: "Arimo";
   font-style: normal;
@@ -422,7 +422,7 @@ ul{
 #numeroTel {
   position: absolute;
   left: 8.2%;
-  top: 64%;
+  top: 69.5%;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -436,6 +436,37 @@ ul{
   color: #fff;
   text-decoration: none;
   text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
+}
+
+#line{
+  position: absolute;
+  left: 8%;
+  top: 90%;
+  width: 84%;
+  background-color: red;
+  border-bottom: 0.5px solid #EEEEF4;
+  z-index: 4;
+}
+
+.social{
+  position: absolute;
+  left: 71%;
+  top: 92.2%;
+  color: #EEEEF4;
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  width: 35%;
+}
+.social li a{
+color: #EEEEF4;
+}
+.social li{
+  float: left;
+  display: inline-block;
+  margin-left: 5%;
 }
 
 /*-----------------------------------------------------------------------------------*/
