@@ -472,6 +472,14 @@ color: #EEEEF4;
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
+@media (min-height: 880px) and (max-height: 900px) {
+  #video_pilo {
+    width: 102%;
+    margin-top: 0;
+    margin-left: -1%;
+  }
+  }
+
 @media(min-height:900px) {
   #home_bio_sez {
     height: 938px;
@@ -497,3 +505,12 @@ color: #EEEEF4;
     margin-left: -1%;
   }
 }
+/* @media(min-height:900px) {
+
+
+  #video_pilo {
+    width: 103%;
+    margin-top: 0;
+    margin-left: -1%;
+  }
+} */
