@@ -52,7 +52,7 @@ ul{
   position: relative;
   left: 0%;
   top: 0%;
-  display: inline-block;
+  display: in-block;
   float: left;
   z-index: 1;
   cursor: url("images/bio.png"), auto;
@@ -422,11 +422,23 @@ ul{
   position: absolute;
   left: 8%;
   top: 90%;
-  width: 84%;
+  width: 0%;
   background-color: red;
   border-bottom: 0.5px solid #EEEEF4;
   z-index: 4;
+  animation: lineslide 1.6s ease infinite alternate;
 }
+
+@keyframes lineslide {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 84%;
+  }
+}
+
 
 .social{
   position: absolute;
