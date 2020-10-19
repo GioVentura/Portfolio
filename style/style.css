@@ -450,7 +450,7 @@ ul{
 
 .social{
   position: absolute;
-  left: 71%;
+  right: 0%;
   top: 92.2%;
   color: #EEEEF4;
   font-family: "Arimo";
@@ -458,7 +458,7 @@ ul{
   font-weight: bold;
   font-size: 0.9em;
   letter-spacing: 0.03em;
-  width: 35%;
+  width: 30%;
 }
 .social li a{
 color: #EEEEF4;
@@ -502,15 +502,29 @@ color: #EEEEF4;
   #video_pilo {
     width: 103%;
     margin-top: 0;
-    margin-left: -1%;
+    margin-left: -3%;
   }
-}
-/* @media(min-height:900px) {
-
-
-  #video_pilo {
+  /* #video_pilo {
     width: 103%;
     margin-top: 0;
     margin-left: -1%;
+  } */
+}
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0)
+{ @media {
+  #video_pilo {
+    width: 178%;
+    margin-top: 0;
+    margin-left: -1%;
   }
-} */
+  }}
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    body {
+        color:green; /* on Safari and Chrome  */
+    }
+}
+/* Only for Safari  */
+::i-block-chrome, .yourClassName {
+     border:1px solid #f00;
+}
