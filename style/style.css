@@ -276,7 +276,7 @@ ul{
   left: -14%;
   top: 52%;
   z-index: 4;
-  font-family: 'Arimo';
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -376,7 +376,7 @@ ul{
 }
 
 #im {
-  font-family: 'Rock Salt';
+  font-family: 'Rock Salt', cursive;
   font-weight: normal;
   font-style: normal;
   font-size: 29.5745px;
@@ -407,7 +407,7 @@ ul{
   left: 8.2%;
   top: 31%;
   color: #EEEEF4;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 0.9em;
@@ -431,7 +431,7 @@ ul{
   left: 8.2%;
   top: 52%;
   color: #EEEEF4;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 0.9em;
@@ -455,7 +455,7 @@ ul{
   left: 8.2%;
   top: 67%;
   color: #EEEEF4;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 0.9em;
@@ -496,7 +496,7 @@ ul{
   right: 0%;
   top: 92.2%;
   color: #EEEEF4;
-  font-family: "Arimo";
+  font-family: 'Arimo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 0.9em;
