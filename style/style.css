@@ -467,7 +467,7 @@ ul{
 
 .social{
   position: absolute;
-  right: 0%;
+  right: 1%;
   top: 92.2%;
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
@@ -485,7 +485,7 @@ transition: color 1s;
 .social li{
   float: left;
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 8%;
   opacity: 0;
 }
 .social li:nth-child(1){

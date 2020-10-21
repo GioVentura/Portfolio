@@ -94,7 +94,7 @@ nav hr{
 
 #menu_top_links img{
 	width: 14%;
-	margin-left: 45%;
+	margin-left: 47%;
 	display: block;
 }
 #menu_bottom_links a{
@@ -204,9 +204,9 @@ a:focus {
 	font-weight: 400;
 }
 
-.frame__links {
+/* .frame__links {
 	margin: 0.5rem 0;
-}
+} */
 
 .frame__links a {
 	border-bottom: 1px solid currentColor;
@@ -280,7 +280,7 @@ a:focus {
 	padding: 0.5rem;
 	display: block;
 	overflow: hidden;
-	font-size: 8rem !important;
+	font-size: 7rem !important;
 	font-family: 'Beatrice Display'!important;
   font-weight: normal;
   font-style: italic;
