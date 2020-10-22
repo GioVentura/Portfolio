@@ -361,7 +361,6 @@ ul{
 
 #IBelieve_bio{
   margin-top: 15%;
-  margin-left: 6%;
   font-family: 'Graphik';
 font-style: normal;
 font-weight: 600;
@@ -387,9 +386,31 @@ color: #2B2B2D;
 
 #io_bio{
   display: block;
-  margin-left: 6%;
   margin-top: 4%;
-  width: 80%;
+  width: 87%;
+}
+
+#bio_row{
+  margin-top: 7%;
+}
+
+#bio_row div h2{
+  font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 120.8%;
+color: #38383D;
+}
+
+
+#bio_row div p{
+  font-family: Futura Std;
+font-style: normal;
+font-weight: 200;
+font-size: 23px;
+line-height: 184.8%;
+color: #38383D;
 }
 
 
