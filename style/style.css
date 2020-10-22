@@ -40,6 +40,33 @@ ul{
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Bold.eot');
+    src: url('Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Graphik-Bold.woff2') format('woff2'),
+        url('Graphik-Bold.woff') format('woff'),
+        url('Graphik-Bold.ttf') format('truetype'),
+        url('Graphik-Bold.svg#Graphik-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Semibold.eot');
+    src: url('Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Graphik-Semibold.woff2') format('woff2'),
+        url('Graphik-Semibold.woff') format('woff'),
+        url('Graphik-Semibold.ttf') format('truetype'),
+        url('Graphik-Semibold.svg#Graphik-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -258,6 +285,16 @@ ul{
   font-weight: normal;
   font-size: 15px;
 }
+#fst_bio_works {
+  position: absolute;
+  top: 70%;
+  right: 8%;
+  display: inline-block;
+  color: #38383D;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+}
 
 #fst_hm_works {
   position: absolute;
@@ -297,7 +334,7 @@ ul{
   text-decoration: none;
   text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
 }
-#fst_hm_contacts:hover,#read_bio:hover,#cv:hover{
+#fst_hm_contacts:hover,#read_bio:hover,#cv:hover,#fst_bio_works:hover{
   color: #000;
   text-decoration: none;
   /* text-shadow: 0px 0px 3px rgba(60, 60, 60, 0.18); */
@@ -318,7 +355,43 @@ ul{
   font-style: normal;
   font-size: 29.5745px;
   line-height: 71px;
+}/*-----------------------------------------------------------------------------------*/
+/*	00. bio page
+/*-----------------------------------------------------------------------------------*/
+
+#IBelieve_bio{
+  margin-top: 15%;
+  margin-left: 6%;
+  font-family: 'Graphik';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 120.8%;
+color: #2B2B2D;
 }
+
+#works_ibelieve{
+  line-height: 0.85;
+  display: inline-block;
+  color: #2B2B2D;
+  text-decoration: underline;
+  transition: padding 1s, color 1s;
+  transition: background-color 0.8s;
+}
+
+#works_ibelieve:hover{
+  text-decoration: underline;
+  background-color: #2B2B2D;
+  color: #EEEEF4;
+}
+
+#io_bio{
+  display: block;
+  margin-left: 6%;
+  margin-top: 4%;
+  width: 80%;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. contacts page
