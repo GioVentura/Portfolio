@@ -407,10 +407,38 @@ color: #38383D;
 #bio_row div p{
   font-family: Futura Std;
 font-style: normal;
+text-align: justify;
 font-weight: 200;
 font-size: 23px;
 line-height: 184.8%;
 color: #38383D;
+}
+
+#gifbox{
+  padding: 0 10% 0 10%;
+}
+
+/* .width-gif{
+  width: 75% !important;
+} */
+.gif-item{
+  margin-bottom: 30%;
+}
+
+.number-gif{
+float: left;
+display: inline-block;
+width: 13%;
+margin-top: 2%;
+font-size: 1rem !important;
+}
+.caption-gif{
+  text-transform: uppercase;
+  text-align: justify;
+  display: inline-block;
+  width: 87%;
+  margin-top: 2%;
+  font-size: 1rem !important;
 }
 
 
