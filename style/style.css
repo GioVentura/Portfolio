@@ -252,6 +252,46 @@ ul{
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
+.home_col_div{
+  margin-bottom: 15%;
+  cursor: pointer !important;
+}
+
+.home_col_div:hover{
+  cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+a .home_col_div h2:hover,
+a .home_col_div p:hover{
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+
+
+.tit-project{
+width: 100%;
+margin-top: 4%;
+font-size: 1rem !important;
+text-transform: uppercase;
+font-family: futura-pt, sans-serif;
+font-weight: 700;
+line-height: 17px;
+color: #38383D;
+}
+
+.caption-project{
+  text-transform: uppercase;
+  text-align: justify;
+  width: 100%;
+  margin-top: -2%;
+  font-size: 1rem !important;
+  font-family: futura-pt, sans-serif;
+  line-height: 17px;
+  font-weight: 200;
+  color: #38383D;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	03. NAV home
 /*-----------------------------------------------------------------------------------*/
@@ -429,7 +469,7 @@ color: #38383D;
 float: left;
 display: inline-block;
 width: 13%;
-margin-top: 2%;
+margin-top: 4%;
 font-size: 1rem !important;
 }
 .caption-gif{
@@ -437,7 +477,7 @@ font-size: 1rem !important;
   text-align: justify;
   display: inline-block;
   width: 87%;
-  margin-top: 2%;
+  margin-top: 4%;
   font-size: 1rem !important;
 }
 
