@@ -721,24 +721,39 @@ font-weight: 200;
 font-size: 11px;
 line-height: 13px;
 text-align: right;
-
+margin-top: 2%;
 color: #38383D;
 }
 
 #phcimitero{
-  position: absolute;
-  width: 91.8%;
-  left: 0;
+  width: 92%;
+  margin-left: 0 !important;
 }
 
 #phgenova{
   width: 102.4%;
 }
 
+
 #phfavi{
   margin-top: 5%;
   width: 100%;
 }
+
+#space{
+  width: 91%;
+  float: left;
+  display: inline-block;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+#div_sLorenzo{
+  width: 40%;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
