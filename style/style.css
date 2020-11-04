@@ -662,7 +662,83 @@ transition: color 1s;
   animation: appearRest 2s ease-in-out 0.8s 1 normal forwards;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	00. photos
+/*-----------------------------------------------------------------------------------*/
 
+#containerpezo{
+    width: 100%;
+    height: 845px;
+    background-image: url("images/pezovon.jpg");
+    background-size: 100%;
+    padding-top: 19.3%;
+}
+
+#photos_pezo{
+  font-family: 'Beatrice Display';
+  font-weight: normal;
+  font-style: italic;
+  font-size: 9.1rem;
+  text-align: center;
+  color: #EEEEF4;
+  opacity: 0%;
+  animation: appearPhotos 1.2s ease-in-out 0.2s 1 normal forwards;
+
+}
+#sentence_div_ph {
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 170px;
+  width: 100%;
+  height: 640px;
+}
+
+#sentence_div_ph h2{
+  font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+line-height: 120.8%;
+color: #38383D;
+}
+
+#sentence_div_ph p{
+  margin-top: 2.7%;
+  font-family: Futura Std;
+font-style: normal;
+font-weight: 200;
+font-size: 21px;
+line-height: 140.8%;
+color: #38383D;
+}
+.relative{
+  position: relative
+}
+.captionph{
+  font-family: Futura Std;
+font-style: normal;
+font-weight: 200;
+font-size: 11px;
+line-height: 13px;
+text-align: right;
+
+color: #38383D;
+}
+
+#phcimitero{
+  position: absolute;
+  width: 91.8%;
+  left: 0;
+}
+
+#phgenova{
+  width: 102.4%;
+}
+
+#phfavi{
+  margin-top: 5%;
+  width: 100%;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
