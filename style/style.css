@@ -734,6 +734,9 @@ color: #38383D;
   width: 102.4%;
 }
 
+.bottomph{
+  margin-bottom: 15%;"
+}
 
 #phfavi{
   margin-top: 5%;
@@ -745,13 +748,28 @@ color: #38383D;
   float: left;
   display: inline-block;
 }
+
+#space2{
+  width: 31%;
+  float: left;
+  display: inline-block;
+  height: 40px;
+}
+
 .padding-0{
     padding-right:0;
     padding-left:0;
 }
 
 #div_sLorenzo{
-  width: 40%;
+  width: 38%;
+  margin-left:31%;
+}
+
+.sicily{
+  display: inline-block;
+  width: 34.5%;
+  padding: 0;
 }
 
 /*-----------------------------------------------------------------------------------*/
