@@ -8,9 +8,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-ul{
+
+ul {
   list-style-type: none;
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*	01. FONT-FACE
 /*-----------------------------------------------------------------------------------*/
@@ -41,33 +43,30 @@ ul{
 }
 
 @font-face {
-    font-family: 'Graphik';
-    src: url('Graphik-Bold.eot');
-    src: url('Graphik-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Graphik-Bold.woff2') format('woff2'),
-        url('Graphik-Bold.woff') format('woff'),
-        url('Graphik-Bold.ttf') format('truetype'),
-        url('Graphik-Bold.svg#Graphik-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Graphik';
+  src: url('Graphik-Bold.eot');
+  src: url('Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Graphik-Bold.woff2') format('woff2'),
+    url('Graphik-Bold.woff') format('woff'),
+    url('Graphik-Bold.ttf') format('truetype'),
+    url('Graphik-Bold.svg#Graphik-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Graphik';
-    src: url('Graphik-Semibold.eot');
-    src: url('Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('Graphik-Semibold.woff2') format('woff2'),
-        url('Graphik-Semibold.woff') format('woff'),
-        url('Graphik-Semibold.ttf') format('truetype'),
-        url('Graphik-Semibold.svg#Graphik-Semibold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Graphik';
+  src: url('Graphik-Semibold.eot');
+  src: url('Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('Graphik-Semibold.woff2') format('woff2'),
+    url('Graphik-Semibold.woff') format('woff'),
+    url('Graphik-Semibold.ttf') format('truetype'),
+    url('Graphik-Semibold.svg#Graphik-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
-
-
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	02. DIVISIONE HOME
@@ -252,39 +251,39 @@ ul{
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
-.home_col_div{
+.home_col_div {
   margin-bottom: 15%;
   cursor: pointer !important;
 }
 
-a.none{
-  cursor: pointer !important;
-}
-.thumb_image{
+a.none {
   cursor: pointer !important;
 }
 
-a.none:hover{
+.thumb_image {
+  cursor: pointer !important;
+}
+
+a.none:hover {
   text-decoration: none !important;
   cursor: pointer !important;
 }
 
-
-.tit-project{
-width: 100%;
-font-size: 1rem !important;
-text-transform: uppercase;
-font-family: futura-pt, sans-serif;
-font-weight: 700;
-line-height: 17px;
-color: #38383D;
+.tit-project {
+  width: 100%;
+  font-size: 1rem !important;
+  text-transform: uppercase;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  line-height: 17px;
+  color: #38383D;
 }
 
-.caption-project{
+.caption-project {
   text-transform: uppercase;
   text-align: justify;
   width: 100%;
-  margin-top:4%;
+  margin-top: 4%;
   font-size: 1rem !important;
   font-family: futura-pt, sans-serif;
   line-height: 17px;
@@ -325,6 +324,7 @@ color: #38383D;
   font-weight: normal;
   font-size: 15px;
 }
+
 #fst_bio_works {
   position: absolute;
   top: 70%;
@@ -369,15 +369,23 @@ color: #38383D;
   text-align: center;
   font-size: 13px;
 }
-#fst_hm_works:hover,#fst_hm_bio:hover,.social li a:hover{
+
+#fst_hm_works:hover, #fst_hm_bio:hover, .social li a:hover {
   color: #fff;
   text-decoration: none;
   text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
 }
-#fst_hm_contacts:hover,#read_bio:hover,#cv:hover,#fst_bio_works:hover{
+
+#fst_hm_contacts:hover, #read_bio:hover, #cv:hover, #fst_bio_works:hover {
   color: #000;
   text-decoration: none;
   /* text-shadow: 0px 0px 3px rgba(60, 60, 60, 0.18); */
+}
+
+#container_home_projects{
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-bottom: 6%;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	03. Frase under landing
@@ -395,21 +403,22 @@ color: #38383D;
   font-style: normal;
   font-size: 29.5745px;
   line-height: 71px;
-}/*-----------------------------------------------------------------------------------*/
-/*	00. bio page
-/*-----------------------------------------------------------------------------------*/
-
-#IBelieve_bio{
-  margin-top: 15%;
-  font-family: 'Graphik';
-font-style: normal;
-font-weight: 600;
-font-size: 50px;
-line-height: 120.8%;
-color: #2B2B2D;
 }
 
-#works_ibelieve{
+/*-----------------------------------------------------------------------------------*/
+/*	00. bio page
+/*-----------------------------------------------------------------------------------*/
+#IBelieve_bio {
+  margin-top: 15%;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120.8%;
+  color: #2B2B2D;
+}
+
+#works_ibelieve {
   line-height: 0.85;
   display: inline-block;
   color: #2B2B2D;
@@ -418,61 +427,61 @@ color: #2B2B2D;
   transition: background-color 0.8s;
 }
 
-#works_ibelieve:hover{
+#works_ibelieve:hover {
   text-decoration: underline;
   background-color: #2B2B2D;
   color: #EEEEF4;
 }
 
-#io_bio{
+#io_bio {
   display: block;
   margin-top: 4%;
   width: 87%;
 }
 
-#bio_row{
+#bio_row {
   margin-top: 7%;
 }
 
-#bio_row div h2{
+#bio_row div h2 {
   font-family: Arimo;
-font-style: normal;
-font-weight: bold;
-font-size: 23px;
-line-height: 120.8%;
-color: #38383D;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 120.8%;
+  color: #38383D;
 }
 
-
-#bio_row div p{
+#bio_row div p {
   font-family: Futura Std;
-font-style: normal;
-text-align: justify;
-font-weight: 200;
-font-size: 23px;
-line-height: 184.8%;
-color: #38383D;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 184.8%;
+  color: #38383D;
 }
 
-#gifbox{
+#gifbox {
   padding: 0 10% 0 10%;
 }
 
 /* .width-gif{
   width: 75% !important;
 } */
-.gif-item{
+.gif-item {
   margin-bottom: 30%;
 }
 
-.number-gif{
-float: left;
-display: inline-block;
-width: 13%;
-margin-top: 4%;
-font-size: 1rem !important;
+.number-gif {
+  float: left;
+  display: inline-block;
+  width: 13%;
+  margin-top: 4%;
+  font-size: 1rem !important;
 }
-.caption-gif{
+
+.caption-gif {
   text-transform: uppercase;
   text-align: justify;
   display: inline-block;
@@ -480,7 +489,6 @@ font-size: 1rem !important;
   margin-top: 4%;
   font-size: 1rem !important;
 }
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. contacts page
@@ -511,7 +519,7 @@ font-size: 1rem !important;
   font-weight: bold;
   font-size: 0.9em;
   letter-spacing: 0.03em;
-    opacity: 0;
+  opacity: 0;
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
@@ -526,10 +534,10 @@ font-size: 1rem !important;
   font-size: 2.6em;
   line-height: 130%;
   letter-spacing: 0.03em;
-    opacity: 0;
+  opacity: 0;
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
-
 }
+
 #emailMe {
   position: absolute;
   left: 8.2%;
@@ -558,6 +566,7 @@ font-size: 1rem !important;
   opacity: 0;
   animation: appearRest 2s ease-in-out 0.4s 1 normal forwards;
 }
+
 #call {
   position: absolute;
   left: 8.2%;
@@ -586,26 +595,28 @@ font-size: 1rem !important;
   opacity: 0;
   animation: appearRest 2s ease-in-out 0.8s 1 normal forwards;
   transition: border-bottom 0.8s;
-
 }
-#RosolinoPilo:after,#venturaGio:after,#numeroTel:after{
-  display:block;
+
+#RosolinoPilo:after, #venturaGio:after, #numeroTel:after {
+  display: block;
   content: '';
   border-bottom: solid 1px #fff;
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
 }
-#RosolinoPilo:hover:after,#venturaGio:hover:after, #numeroTel:hover:after{ transform: scaleX(1); }
 
+#RosolinoPilo:hover:after, #venturaGio:hover:after, #numeroTel:hover:after {
+  transform: scaleX(1);
+}
 
-#RosolinoPilo:hover,#venturaGio:hover,#numeroTel:hover{
+#RosolinoPilo:hover, #venturaGio:hover, #numeroTel:hover {
   color: #fff;
   text-decoration: none;
   /* border-bottom: 2px solid currentColor; */
   text-shadow: 0px 0px 4px rgba(33, 33, 33, 0.2);
 }
 
-#line{
+#line {
   position: absolute;
   left: 8%;
   top: 90%;
@@ -626,8 +637,7 @@ font-size: 1rem !important;
   }
 }
 
-
-.social{
+.social {
   position: absolute;
   right: 1%;
   top: 92.2%;
@@ -639,42 +649,43 @@ font-size: 1rem !important;
   letter-spacing: 0.03em;
   width: 30%;
 }
-.social li a{
-color: #EEEEF4;
-transition: color 1s;
+
+.social li a {
+  color: #EEEEF4;
+  transition: color 1s;
 }
 
-.social li{
+.social li {
   float: left;
   display: inline-block;
   margin-left: 8%;
   opacity: 0;
 }
-.social li:nth-child(1){
+
+.social li:nth-child(1) {
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
 
-.social li:nth-child(3){
+.social li:nth-child(3) {
   animation: appearRest 2s ease-in-out 0.4s 1 normal forwards;
 }
 
-.social li:nth-child(5){
+.social li:nth-child(5) {
   animation: appearRest 2s ease-in-out 0.8s 1 normal forwards;
 }
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. photos
 /*-----------------------------------------------------------------------------------*/
-
-#containerpezo{
-    width: 100%;
-    height: 845px;
-    background-image: url("images/pezovon.jpg");
-    background-size: 100%;
-    padding-top: 19.3%;
+#containerpezo {
+  width: 100%;
+  height: 845px;
+  background-image: url("images/pezovon.jpg");
+  background-size: 100%;
+  padding-top: 19.3%;
 }
 
-#photos_pezo{
+#photos_pezo {
   font-family: 'Beatrice Display';
   font-weight: normal;
   font-style: italic;
@@ -683,8 +694,8 @@ transition: color 1s;
   color: #EEEEF4;
   opacity: 0%;
   animation: appearPhotos 1.2s ease-in-out 0.2s 1 normal forwards;
-
 }
+
 #sentence_div_ph {
   padding-left: 22%;
   padding-right: 22%;
@@ -693,83 +704,123 @@ transition: color 1s;
   height: 640px;
 }
 
-#sentence_div_ph h2{
+#sentence_div_ph h2 {
   font-family: Arimo;
-font-style: normal;
-font-weight: bold;
-font-size: 23px;
-line-height: 120.8%;
-color: #38383D;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 120.8%;
+  color: #38383D;
 }
 
-#sentence_div_ph p{
+#sentence_div_ph p {
   margin-top: 2.7%;
   font-family: Futura Std;
-font-style: normal;
-font-weight: 200;
-font-size: 21px;
-line-height: 140.8%;
-color: #38383D;
-}
-.relative{
-  position: relative
-}
-.captionph{
-  font-family: Futura Std;
-font-style: normal;
-font-weight: 200;
-font-size: 11px;
-line-height: 13px;
-text-align: right;
-margin-top: 2%;
-color: #38383D;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 21px;
+  line-height: 140.8%;
+  color: #38383D;
 }
 
-#phcimitero{
+.relative {
+  position: relative
+}
+
+.captionph {
+  font-family: Futura Std;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  margin-top: 2%;
+  color: #38383D;
+}
+
+#phcimitero {
   width: 92%;
   margin-left: 0 !important;
 }
 
-#phgenova{
+#phgenova {
   width: 102.4%;
 }
 
-.bottomph{
-  margin-bottom: 15%;"
+.bottomph {
+  margin-bottom: 15%;
+  "
+
 }
 
-#phfavi{
+#phfavi {
   margin-top: 5%;
   width: 100%;
 }
 
-#space{
+#space {
   width: 91%;
   float: left;
   display: inline-block;
 }
 
-#space2{
+#space2 {
   width: 31%;
   float: left;
   display: inline-block;
   height: 40px;
 }
 
-.padding-0{
-    padding-right:0;
-    padding-left:0;
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
 }
 
-#div_sLorenzo{
+#div_sLorenzo {
   width: 38%;
-  margin-left:31%;
+  margin-left: 31%;
 }
 
-.sicily{
+.sicily {
   display: inline-block;
   width: 34.5%;
   padding: 0;
+}
+
+#identikit {
+  margin-bottom: 4%;
+  padding: 0 8%;
+}
+
+#superlove {
+  margin-bottom: 10%;
+  padding: 0 8%;
+}
+
+ul#footer li a {
+  font-family: Bangla MN;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #9A9AA8;
+  transition: 0.5s color;
+}
+
+ul#footer li a:hover {
+  color: #38383D;
+  transition-delay:0.1s;
+}
+
+ul#footer li {
+  display: inline-block;
+  margin: 1.8%;
+}
+
+ul#footer {
+  text-align: center;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -781,7 +832,7 @@ color: #38383D;
     margin-top: 0;
     margin-left: -1%;
   }
-  }
+}
 
 @media(min-height:900px) {
   #home_bio_sez {
