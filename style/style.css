@@ -678,9 +678,12 @@ a.none:hover {
 /*	00. photos
 /*-----------------------------------------------------------------------------------*/
 #containerpezo {
+  background-image: url("images/pezovon.jpg");
+}
+
+.containerfull{
   width: 100%;
   height: 845px;
-  background-image: url("images/pezovon.jpg");
   background-size: 100%;
   padding-top: 19.3%;
 }
@@ -821,6 +824,15 @@ ul#footer li {
 
 ul#footer {
   text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	00. Progetti
+/*-----------------------------------------------------------------------------------*/
+
+#full_younit{
+  background-image: url("images/younit_full.jpg");
+  background-position: 0 55%;
 }
 
 /*-----------------------------------------------------------------------------------*/
