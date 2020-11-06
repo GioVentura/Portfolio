@@ -33,7 +33,7 @@ ul {
 }
 
 @font-face {
-  font-family: 'Beatrice Display';
+  font-family: 'Beatrice Display' !important;
   src: url('beatrice_display_regular_italic-webfont.woff2') format('woff2'),
     url('beatrice_display_regular_italic-webfont.woff') format('woff');
   font-style: normal;
@@ -149,7 +149,7 @@ ul {
   position: absolute;
   top: -7%;
   left: 20.2%;
-  font-family: 'Beatrice Display';
+  font-family: 'Beatrice Display' !important;
   font-weight: normal;
   font-style: italic;
   font-size: 9.1rem;
@@ -176,7 +176,7 @@ ul {
   display: inline-block;
   top: 66%;
   right: 20%;
-  font-family: 'Beatrice Display';
+  font-family: 'Beatrice Display' !important;
   font-weight: normal;
   font-style: italic;
   font-size: 9.1rem;
@@ -688,8 +688,9 @@ a.none:hover {
   padding-top: 19.3%;
 }
 
+
 #photos_pezo {
-  font-family: 'Beatrice Display';
+  font-family: 'Beatrice Display' !important;
   font-weight: normal;
   font-style: italic;
   font-size: 9.1rem;
@@ -829,11 +830,88 @@ ul#footer {
 /*-----------------------------------------------------------------------------------*/
 /*	00. Progetti
 /*-----------------------------------------------------------------------------------*/
+.containerfull_pro{
+  width: 100%;
+  height: 845px;
+  background-size: 110%;
+  padding-top: 19.3%;
+  opacity: 0.3;
+  animation: zoomOut 0.8s ease 0s forwards;
+}
+
+@keyframes zoomOut {
+  0% {
+    background-size: 110%;
+    opacity: 0.3;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    background-size: 100%;
+  }
+}
 
 #full_younit{
   background-image: url("images/younit_full.jpg");
-  background-position: 0 55%;
+  background-position: center 55%;
 }
+
+.containerflow{
+  margin-top: -6%;
+  padding: 0 10%;
+}
+
+.label_project p{
+  opacity: 0;
+  animation: appearLabelP 1s ease 1s forwards;
+}
+
+@keyframes appearLabelP {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.label_project{
+  width: 0%;
+  opacity: 0;
+  padding: 0.05% 4% 1.4% 4%;
+  background-color: #FFEB37;
+  animation: appearLabel 0.7s ease-out 0.4s forwards;;
+}
+
+@keyframes appearLabel {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
+
+  }
+}
+
+.tit_yellow{
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 120.8%;
+  color: #FFEB37;
+  margin-top: 8%;
+}
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
