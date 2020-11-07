@@ -906,7 +906,35 @@ ul#footer {
   font-size: 23px;
   line-height: 120.8%;
   color: #FFEB37;
-  margin-top: 8%;
+  margin-top: 19%;
+}
+.specifiche{
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 120.8%;
+  color: #EEEEF4;
+}
+
+.bea-tit{
+  font-family: 'Beatrice Display' !important;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 9rem;
+  color: #EEEEF4;
+  opacity: 0%;
+  animation: appearPhotos 1.7s ease-in-out 0.7s 1 normal forwards;
+}
+
+.descr{
+  font-family: Futura Std;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 21px;
+  line-height: 140.8%;
+  color: #EEEEF4;
+  padding: 0 0 0 2.5%;
 }
 
 
