@@ -834,7 +834,7 @@ ul#footer {
   background-size: 110%;
   padding-top: 19.3%;
   opacity: 0.3;
-  animation: zoomOut 0.8s ease 0s forwards;
+  animation: zoomOut 1s ease 0s forwards;
 }
 
 @keyframes zoomOut {
@@ -860,12 +860,12 @@ ul#footer {
 
 .containerflow{
   margin-top: -6%;
-  padding: 0 10%;
+  padding: 0 12%;
 }
 
 .label_project p{
   opacity: 0;
-  animation: appearLabelP 1s ease 1s forwards;
+  animation: appearLabelP 1s ease 0s forwards;
 }
 
 @keyframes appearLabelP {
@@ -883,7 +883,7 @@ ul#footer {
   opacity: 0;
   padding: 0.05% 4% 1.4% 4%;
   background-color: #FFEB37;
-  animation: appearLabel 0.7s ease-out 0.4s forwards;;
+  animation: appearLabel 1s ease-out 0s forwards;;
 }
 
 @keyframes appearLabel {
@@ -912,16 +912,22 @@ ul#footer {
   font-family: Arimo;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 120.8%;
   color: #EEEEF4;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+.specifiche p{
+  width: 180%;
 }
 
 .bea-tit{
   font-family: 'Beatrice Display' !important;
   font-weight: normal;
   font-style: italic;
-  font-size: 9rem;
+  font-size: 8rem;
   color: #EEEEF4;
   opacity: 0%;
   animation: appearPhotos 1.7s ease-in-out 0.7s 1 normal forwards;
