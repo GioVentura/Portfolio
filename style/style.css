@@ -13,9 +13,11 @@ ul {
   list-style-type: none;
 }
 
-.bold{font-family: futura-pt,sans-serif;
-font-weight: 600;
-font-style: normal;}
+.bold {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	01. FONT-FACE
@@ -384,11 +386,12 @@ a.none:hover {
   /* text-shadow: 0px 0px 3px rgba(60, 60, 60, 0.18); */
 }
 
-#container_home_projects{
+#container_home_projects {
   padding-left: 8%;
   padding-right: 8%;
   margin-bottom: 6%;
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*	03. Frase under landing
 /*-----------------------------------------------------------------------------------*/
@@ -599,7 +602,7 @@ a.none:hover {
   transition: border-bottom 0.8s;
 }
 
-#RosolinoPilo:after, #venturaGio:after, #numeroTel:after {
+#RosolinoPilo:after, #venturaGio:after, #numeroTel:after, .text:after {
   display: block;
   content: '';
   border-bottom: solid 1px #fff;
@@ -607,7 +610,7 @@ a.none:hover {
   transition: transform 0.5s ease-in-out;
 }
 
-#RosolinoPilo:hover:after, #venturaGio:hover:after, #numeroTel:hover:after {
+#RosolinoPilo:hover:after, #venturaGio:hover:after, #numeroTel:hover:after, .text:hover:after {
   transform: scaleX(1);
 }
 
@@ -683,13 +686,12 @@ a.none:hover {
   background-image: url("images/pezovon.jpg");
 }
 
-.containerfull{
+.containerfull {
   width: 100%;
   height: 845px;
   background-size: 100%;
   padding-top: 19.3%;
 }
-
 
 #photos_pezo {
   font-family: 'Beatrice Display' !important;
@@ -817,7 +819,7 @@ ul#footer li a {
 
 ul#footer li a:hover {
   color: #38383D;
-  transition-delay:0.1s;
+  transition-delay: 0.1s;
 }
 
 ul#footer li {
@@ -832,7 +834,7 @@ ul#footer {
 /*-----------------------------------------------------------------------------------*/
 /*	00. Progetti
 /*-----------------------------------------------------------------------------------*/
-.containerfull_pro{
+.containerfull_pro {
   width: 100%;
   height: 845px;
   background-size: 110%;
@@ -857,17 +859,17 @@ ul#footer {
   }
 }
 
-#full_younit{
+#full_younit {
   background-image: url("images/younit_full.jpg");
   background-position: center 55%;
 }
 
-.containerflow{
+.containerflow {
   margin-top: -6%;
   padding: 0 12%;
 }
 
-.label_project p{
+.label_project p {
   opacity: 0;
   animation: appearLabelP 1s ease 0s forwards;
 }
@@ -882,13 +884,14 @@ ul#footer {
   }
 }
 
-.label_project{
+.label_project {
   width: 0%;
   height: 125px;
   opacity: 0;
   padding: 0.05% 4% 1.4% 4%;
   background-color: #FFEB37;
-  animation: appearLabel 1s ease-out 0s forwards;;
+  animation: appearLabel 1s ease-out 0s forwards;
+  ;
 }
 
 @keyframes appearLabel {
@@ -900,11 +903,10 @@ ul#footer {
   100% {
     width: 100%;
     opacity: 1;
-
   }
 }
 
-.tit_yellow{
+.tit_yellow {
   font-family: Arimo;
   font-style: normal;
   font-weight: bold;
@@ -913,7 +915,8 @@ ul#footer {
   color: #FFEB37;
   margin-top: 19%;
 }
-.specifiche{
+
+.specifiche {
   font-family: Arimo;
   font-style: normal;
   font-weight: bold;
@@ -924,15 +927,15 @@ ul#footer {
   margin-top: 2%;
 }
 
-#year{
+#year {
   color: #FFEB37;
 }
 
-.specifiche p{
+.specifiche p {
   width: 180%;
 }
 
-.bea-tit{
+.bea-tit {
   font-family: 'Beatrice Display' !important;
   font-weight: normal;
   font-style: italic;
@@ -942,7 +945,7 @@ ul#footer {
   animation: appearPhotos 1.7s ease-in-out 0.7s 1 normal forwards;
 }
 
-.descr{
+.descr {
   font-family: Futura Std;
   font-style: normal;
   font-weight: 200;
@@ -952,79 +955,110 @@ ul#footer {
   padding: 0 0 0 2.5%;
 }
 
-
-.board{
+.board {
   background-color: yellow;
   width: 100%;
-  margin-top:8%;
+  margin-top: 8%;
 }
 
-
-.board img{
-width: 100%;
-}
-
-.board_link{
-  position: relative;
-  /* background-color: yellow; */
+.board img {
   width: 100%;
-  margin-top:8%;
 }
 
-.board_link img{
-  opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+.board_link {
+  position: relative;
+  width: 100%;
+  margin-top: 8%;
+  background-color: #000;
+  cursor: pointer;
 }
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+
+.board_link img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+.board_link:hover .overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.board_link img:hover {
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
+  font-family: Bangla MN;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
 
-.board_link:hover img {
-  opacity: 0.3;
+.board_link:hover .text {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
 
-.board_link:hover .middle {
-  opacity: 1;
+.board_link:hover .text:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #fff;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-
-.board_link img:hover{
-opacity: 0.2;
-}
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+.board_link:hover .text:after {
+  transform: scaleX(1);
+  cursor: pointer;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000;
+}
 
-.pro_links:hover{
+.pro_links:hover {
   text-decoration: none;
   color: #FFEB37;
   font-weight: 400;
 }
-.pro_links{
+
+.pro_links {
   display: block;
   text-decoration: none;
-  font-family: futura-pt,sans-serif;
+  font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #FFEB37;
 }
-
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
