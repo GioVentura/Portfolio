@@ -964,6 +964,9 @@ ul#footer {
 .board img {
   width: 100%;
 }
+#linkover{
+  width: 100%;
+}
 
 .board_link {
   position: relative;
@@ -976,7 +979,7 @@ ul#footer {
 .board_link img {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 100% !important ;
   height: auto;
   transition: .3s ease;
   backface-visibility: hidden;
