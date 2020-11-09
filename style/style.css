@@ -976,10 +976,10 @@ ul#footer {
   cursor: pointer;
 }
 
-.board_link img {
+.board_link img, .board_link video {
   opacity: 1;
   display: block;
-  width: 100% !important ;
+  width: 100%;
   height: auto;
   transition: .3s ease;
   backface-visibility: hidden;
@@ -987,11 +987,11 @@ ul#footer {
 }
 
 .board_link:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.87;
   cursor: pointer;
 }
 
-.board_link img:hover {
+.board_link img:hover, .board_link video:hover {
   opacity: 0.2;
   cursor: pointer;
 }
