@@ -1063,6 +1063,87 @@ ul#footer {
   color: #FFEB37;
 }
 
+#deepen{
+  display: block;
+  width: 100%;
+  font-family: Bangla MN;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 27px;
+  letter-spacing: 0.03em;
+text-align: center;
+
+color: #EEEEF4;
+
+text-decoration: underline;
+transition: 0.5s color;
+
+}
+
+#deepen:hover{
+  color: #FFEB37;
+  transition-delay: 0.1s;
+}
+
+.more{
+  width: 100%;
+  padding: 6% 8% 6% 8%;
+  background-color: #FFEB37;
+}
+
+.more .row h3{
+  width: 100%;
+  font-family: Arimo;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+
+color: #38383D;
+margin-bottom: 5%;
+}
+
+.more img{
+  width: 100%;
+}
+
+
+.pan_pro{
+  padding: 0 2.5% !important;
+}
+
+.pan_pro:hover p.caption-project{
+text-decoration: none;
+}
+
+#footer_pro{
+  display: block;
+  width: 100%;
+  font-family: Bangla MN;
+font-style: normal;
+font-size: 13px;
+line-height: 24px;
+  letter-spacing: 0.03em;
+text-align: right;
+font-weight: bold;
+color: #4E4E55;
+
+text-decoration: none;
+transition: 0.5s color;
+}
+.rowfoot{
+  width: 100%;
+}
+
+#footer_pro:hover {
+  color: #000;
+  transition-delay: 0.1s;
+
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
