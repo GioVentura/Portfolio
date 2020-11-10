@@ -863,6 +863,10 @@ ul#footer {
   background-image: url("images/younit_full.jpg");
   background-position: center 55%;
 }
+#full_fruttare {
+  background-image: url("images/fruttare_full.jpg");
+  background-position: center 55%;
+}
 
 .containerflow {
   margin-top: -6%;
