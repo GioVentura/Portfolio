@@ -867,6 +867,10 @@ ul#footer {
   background-image: url("images/fruttare_full.jpg");
   background-position: center 55%;
 }
+#full_lemille {
+  background-image: url("images/lemille_full.jpg");
+  background-position: center 55%;
+}
 
 .containerflow {
   margin-top: -6%;
