@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+*::selection {
+    background: #26fcb9;
+}
+
 ul {
   list-style-type: none;
 }
