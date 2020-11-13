@@ -875,6 +875,10 @@ ul#footer {
   background-image: url("images/lemille_full.jpg");
   background-position: center 55%;
 }
+#full_ns {
+  background-image: url("images/nomestudio_full.jpg");
+  background-position: center 55%;
+}
 
 .containerflow {
   margin-top: -6%;
@@ -976,6 +980,14 @@ ul#footer {
 .board img {
   width: 100%;
 }
+.board video {
+  width: 100%;
+  margin-bottom: 0;
+  display: block;
+}
+
+
+
 #linkover{
   width: 100%;
 }
