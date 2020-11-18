@@ -883,6 +883,14 @@ ul#footer {
   background-image: url("images/wal_full.jpg");
   background-position: center 55%;
 }
+#full_hotshoppes{
+  background-image: url("images/hots_full.jpg");
+  background-position: center 55%;
+}
+#full_comunico{
+  background-image: url("images/comunico_full.jpg");
+  background-position: center 55%;
+}
 
 .containerflow {
   margin-top: -6%;
