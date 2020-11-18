@@ -426,6 +426,15 @@ a.none:hover {
   line-height: 120.8%;
   color: #2B2B2D;
 }
+#IBelieve_play {
+  margin-top: 15%;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120.8%;
+  color: #EEEEF4;
+}
 
 #works_ibelieve {
   line-height: 0.85;
