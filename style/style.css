@@ -1406,14 +1406,6 @@ color: #EEEEF4;
   }
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	hardvark-mobile
-/*-----------------------------------------------------------------------------------*/
-@media (max-width: 360px) {
-  .mob_none {
-    display: none;
-  }
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*	mine media
@@ -1541,9 +1533,18 @@ color: #EEEEF4;
 }
 
 @media (max-width: 530px) {
+.mob-none{
+  display: none;
+}
+
   #home_bio_sez {
     width: 100%;
     height: 650px
+  }
+  #home_bio_sez img{
+    width: 60%;
+    top:16% !important;
+    left: 8%;%
   }
   #home_photo_sez{
     left: 0% !important;
@@ -1553,4 +1554,5 @@ color: #EEEEF4;
     background-size: cover !important;
     height: 650px
   }
+
 }
