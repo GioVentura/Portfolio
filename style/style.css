@@ -10,7 +10,7 @@
 }
 
 *::selection {
-    background: #fff000;
+  background: #fff000;
 }
 
 ul {
@@ -116,18 +116,15 @@ ul {
   cursor: url("images/photos.png"), auto;
   transition: background-size 5s;
   transition-timing-function: ease-out;
-
 }
-
 
 #home_photo_sez:hover {
   background-size: 110%;
 }
 
-#home_photo_sez:mouseout{
+#home_photo_sez:mouseout {
   display: none;
 }
-
 
 #scroll_please {
   position: absolute;
@@ -437,6 +434,7 @@ a.none:hover {
   line-height: 120.8%;
   color: #2B2B2D;
 }
+
 #IBelieve_play {
   margin-top: 15%;
   font-family: 'Graphik';
@@ -887,27 +885,33 @@ ul#footer {
   background-image: url("images/younit_full.jpg");
   background-position: center 55%;
 }
+
 #full_fruttare {
   background-image: url("images/fruttare_full.jpg");
   background-position: center 55%;
 }
+
 #full_lemille {
   background-image: url("images/lemille_full.jpg");
   background-position: center 55%;
 }
+
 #full_ns {
   background-image: url("images/nomestudio_full.jpg");
   background-position: center 55%;
 }
-#full_wal{
+
+#full_wal {
   background-image: url("images/wal_full.jpg");
   background-position: center 55%;
 }
-#full_hotshoppes{
+
+#full_hotshoppes {
   background-image: url("images/hots_full.jpg");
   background-position: center 55%;
 }
-#full_comunico{
+
+#full_comunico {
   background-image: url("images/comunico_full.jpg");
   background-position: center 55%;
 }
@@ -1012,15 +1016,14 @@ ul#footer {
 .board img {
   width: 100%;
 }
+
 .board video {
   width: 100%;
   margin-bottom: 0;
   display: block;
 }
 
-
-
-#linkover{
+#linkover {
   width: 100%;
 }
 
@@ -1119,180 +1122,170 @@ ul#footer {
   color: #FFEB37;
 }
 
-#deepen{
+#deepen {
   display: block;
   width: 100%;
   font-family: Bangla MN;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 27px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
   letter-spacing: 0.03em;
-text-align: center;
-
-color: #EEEEF4;
-
-text-decoration: underline;
-transition: 0.5s color;
-
+  text-align: center;
+  color: #EEEEF4;
+  text-decoration: underline;
+  transition: 0.5s color;
 }
 
-#deepen:hover{
+#deepen:hover {
   color: #FFEB37;
   transition-delay: 0.1s;
 }
 
-.more{
+.more {
   width: 100%;
   padding: 6% 8% 6% 8%;
   background-color: #FFEB37;
 }
 
-.more .row h3{
+.more .row h3 {
   width: 100%;
   font-family: Arimo;
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-line-height: 25px;
-text-align: center;
-text-transform: uppercase;
-
-color: #38383D;
-margin-bottom: 5%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #38383D;
+  margin-bottom: 5%;
 }
 
-.more img{
+.more img {
   width: 100%;
 }
 
-
-.pan_pro{
+.pan_pro {
   padding: 0 2.5% !important;
 }
 
-.pan_pro:hover p.caption-project{
-text-decoration: none;
+.pan_pro:hover p.caption-project {
+  text-decoration: none;
 }
 
-#footer_pro{
+#footer_pro {
   display: block;
   width: 100%;
   font-family: Bangla MN;
-font-style: normal;
-font-size: 13px;
-line-height: 24px;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
   letter-spacing: 0.03em;
-text-align: right;
-font-weight: bold;
-color: #4E4E55;
-
-text-decoration: none;
-transition: 0.5s color;
+  text-align: right;
+  font-weight: bold;
+  color: #4E4E55;
+  text-decoration: none;
+  transition: 0.5s color;
 }
-.rowfoot{
+
+.rowfoot {
   width: 100%;
 }
 
 #footer_pro:hover {
   color: #000;
   transition-delay: 0.1s;
-
 }
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. Playlists
 /*-----------------------------------------------------------------------------------*/
-
-.playimg{
+.playimg {
   width: 100%;
 }
 
-.playcaption{
+.playcaption {
   padding: 8% 8% 0% 8%;
 }
-.playcaption h2{
+
+.playcaption h2 {
   font-family: Arimo;
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
   line-height: 120.8%;
-
   color: #EEEEF4;
-
-transition: color 0.7s;
+  transition: color 0.7s;
 }
 
-.playcaption a:hover{
+.playcaption a:hover {
   text-decoration: none;
 }
 
-.playcaption h2:hover{
-    color: #FFEB37 ;
+.playcaption h2:hover {
+  color: #FFEB37;
 }
 
-.playcaption p{
+.playcaption p {
   margin-top: 4%;
   font-family: Futura Std;
-font-style: normal;
-font-weight: 200;
-font-size: 21px;
-line-height: 140.8%;
-color: #EEEEF4;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 21px;
+  line-height: 140.8%;
+  color: #EEEEF4;
 }
 
-#conosco{
+#conosco {
   margin-top: 4%;
   font-family: Futura Std;
-font-style: normal;
-font-weight: 200;
-line-height: 140.8%;
-color: #EEEEF4;
-transition: color 0.7s;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140.8%;
+  color: #EEEEF4;
+  transition: color 0.7s;
 }
 
-#conosco:hover{
+#conosco:hover {
   text-decoration: none;
-    color: #FFEB37 ;
+  color: #FFEB37;
 }
 
-.playbox{
+.playbox {
   margin-top: 10%;
 }
-
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. large pic
 /*-----------------------------------------------------------------------------------*/
-
-
-.large_pic{
+.large_pic {
   margin-top: 15%;
   padding: 0 8%;
 }
-.large_pic_cd{
+
+.large_pic_cd {
   margin-top: 15%;
 }
 
-.large_pic img,.large_pic_cd img{
-  display:block;
+.large_pic img, .large_pic_cd img {
+  display: block;
   width: 100%;
 }
 
-.large_pic_cap{
-width: 100%;
-margin-top: 4.5%;
+.large_pic_cap {
+  width: 100%;
+  margin-top: 4.5%;
 }
-.large_pic_cap p{
-text-align: center;
-display: block;
-font-family: Futura Std;
-font-style: normal;
-font-weight: 200;
-font-size: 1rem;
-line-height: 140.8%;
-color: #EEEEF4;
+
+.large_pic_cap p {
+  text-align: center;
+  display: block;
+  font-family: Futura Std;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 140.8%;
+  color: #EEEEF4;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1304,44 +1297,51 @@ color: #EEEEF4;
     margin-top: 0;
     margin-left: -1%;
   }
-
 }
+
 @media(max-height:880px) {
   #home_bio_sez {
     height: 840px;
   }
+
   #home_photo_sez {
     height: 840px;
   }
 }
+
 @media(max-height:798px) {
   #home_bio_sez {
     height: 800px;
   }
+
   #home_photo_sez {
     height: 800px;
   }
 }
+
 @media(max-height:717px) {
   #home_bio_sez {
     height: 700px;
   }
+
   #home_photo_sez {
     height: 700px;
   }
 
-  #big_photos{
+  #big_photos {
     font-size: 5.5rem !important;
   }
-  #big_hi{
-    font-size: 5.5rem !important;
 
+  #big_hi {
+    font-size: 5.5rem !important;
   }
 }
+
 @media(max-height:600px) {
   #home_bio_sez {
     height: 600px;
   }
+
   #home_photo_sez {
     height: 600px;
   }
@@ -1395,8 +1395,6 @@ color: #EEEEF4;
 /*	hardvark-tablet
 /*-----------------------------------------------------------------------------------*/
 @media (max-width: 1024px) {
-
-
   .tab_none {
     display: none;
   }
@@ -1406,148 +1404,163 @@ color: #EEEEF4;
   }
 }
 
-
 /*-----------------------------------------------------------------------------------*/
 /*	mine media
 /*-----------------------------------------------------------------------------------*/
 @media (max-width: 1651px) {
-
   #home_photo_sez {
     background-size: 110%;
     background-position: 60% 60%;
   }
+
   #home_photo_sez:hover {
     background-size: 120%;
   }
-
-
 }
-@media (max-width: 1454px) {
 
+@media (max-width: 1454px) {
   #home_photo_sez {
     background-size: 110%;
   }
+
   #home_photo_sez:hover {
     background-size: 120%;
   }
-  #big_photos{
-    right:12%;
+
+  #big_photos {
+    right: 12%;
   }
-  #cv{
+
+  #cv {
     left: -17%;
   }
-  #scroll_please{
+
+  #scroll_please {
     width: 2.4%;
     left: 48.8%;
   }
-  #ball{
+
+  #ball {
     height: 16px;
   }
-
 }
-@media (max-width: 1305px) {
 
+@media (max-width: 1305px) {
   #home_photo_sez {
     background-size: 120%;
   }
+
   #home_photo_sez:hover {
     background-size: 130%;
   }
-  #big_photos{
+
+  #big_photos {
     font-size: 8em;
   }
-  #big_hi{
+
+  #big_hi {
     font-size: 8rem;
   }
-
-
-
 }
-@media (max-width: 1161px) {
 
+@media (max-width: 1161px) {
   #home_photo_sez {
     background-size: 130%;
   }
+
   #home_photo_sez:hover {
     background-size: 140%;
   }
-  #big_photos{
-    right:14%;
+
+  #big_photos {
+    right: 14%;
     font-size: 6.5rem;
   }
-  #big_hi{
+
+  #big_hi {
     font-size: 6.5rem;
   }
-  #cv{
+
+  #cv {
     left: -22%;
   }
-  #scroll_please{
+
+  #scroll_please {
     width: 2.8%;
     left: 48.6%;
   }
-  #ball{
+
+  #ball {
     height: 15px;
   }
 }
-@media (max-width: 1039px) {
 
+@media (max-width: 1039px) {
   #home_photo_sez {
     background-size: 130%;
     height: 620px;
   }
+
   #home_bio_sez {
     height: 620px;
   }
-  #home_bio_sez img{
-    top:18% !important;
+
+  #home_bio_sez img {
+    top: 18% !important;
   }
+
   #home_photo_sez:hover {
     background-size: 140%;
   }
-  #big_photos{
-    right:20%;
+
+  #big_photos {
+    right: 20%;
     font-size: 6rem;
   }
-  #big_hi{
+
+  #big_hi {
     font-size: 6rem;
   }
-  #cv{
+
+  #cv {
     left: -26%;
   }
-  #scroll_please{
+
+  #scroll_please {
     width: 3%;
     left: 48.5%;
     height: 43px;
   }
-  #ball{
+
+  #ball {
     height: 14px;
   }
-
 }
 
 @media (max-width: 900px) {
-  #home_bio_sez img{
-    top:30% !important;
+  #home_bio_sez img {
+    top: 30% !important;
     left: 32%
   }
 }
 
 @media (max-width: 530px) {
-.mob-none{
-  display: none !important;
-}
+  .mob-none {
+    display: none !important;
+  }
 
   #home_bio_sez {
     width: 100%;
     height: 812px
   }
-  #home_bio_sez img{
+
+  #home_bio_sez img {
     width: 82%;
     left: 16%;
-
-top: 33%!important;
+    top: 33% !important;
   }
-  #home_photo_sez{
+
+  #home_photo_sez {
     left: 0% !important;
     width: 100%;
     top: 0px;
@@ -1556,24 +1569,23 @@ top: 33%!important;
     height: 812px
   }
 
-  #big_hi{
+  #big_hi {
     width: 353px;
-  height: 100.86px;
-  left: 23px;
-  top: 25% !important;
-
-  font-family: Beatrice Display;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 76.5123px;
-  line-height: 63.7%;
+    height: 100.86px;
+    left: 23px;
+    top: 25% !important;
+    font-family: Beatrice Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 76.5123px;
+    line-height: 63.7%;
   }
 
-  #fst_hm_title img{
-    width: 400%;
-left: 87px;
-top: 28px;
-
+  /* logohome */
+  #fst_hm_title  {
+    left:7%;
   }
-
+  #fst_hm_title img {
+    width: 550%;
+  }
 }
