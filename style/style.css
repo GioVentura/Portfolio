@@ -1455,13 +1455,32 @@ color: #EEEEF4;
     background-size: 140%;
   }
   #big_photos{
-    right:8%;
-    font-size: 7rem;
+    right:14%;
+    font-size: 6.5rem;
   }
   #big_hi{
-    font-size: 7rem;
+    font-size: 6.5rem;
   }
   #cv{
     left: -22%;
+  }
+}
+@media (max-width: 1039px) {
+
+  #home_photo_sez {
+    background-size: 130%;
+  }
+  #home_photo_sez:hover {
+    background-size: 140%;
+  }
+  #big_photos{
+    right:20%;
+    font-size: 6rem;
+  }
+  #big_hi{
+    font-size: 6rem;
+  }
+  #cv{
+    left: -26%;
   }
 }
