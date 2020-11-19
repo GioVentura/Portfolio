@@ -1549,5 +1549,6 @@ color: #EEEEF4;
     left: 0% !important;
     width: 100%;
     top: 500px;
+    background-attachment: scroll;
   }
 }
