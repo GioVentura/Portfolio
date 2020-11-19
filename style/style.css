@@ -1542,10 +1542,10 @@ color: #EEEEF4;
     height: 812px
   }
   #home_bio_sez img{
-    width: 78%;
-    left: 20%;
+    width: 82%;
+    left: 16%;
 
-top: 40%;
+top: 33%!important;
   }
   #home_photo_sez{
     left: 0% !important;
