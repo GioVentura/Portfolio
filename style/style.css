@@ -101,7 +101,11 @@ ul {
 
 #home_photo_sez {
   background-image: url("images/pezovon.jpg");
-  background-size: 160%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left 60%;
+  background-size: cover;
+  background-size: 100%;
   width: 50%;
   height: 900px;
   position: relative;
@@ -112,11 +116,18 @@ ul {
   cursor: url("images/photos.png"), auto;
   transition: background-size 5s;
   transition-timing-function: ease-out;
+
 }
 
+
 #home_photo_sez:hover {
-  background-size: 170%;
+  background-size: 110%;
 }
+
+#home_photo_sez:mouseout{
+  display: none;
+}
+
 
 #scroll_please {
   position: absolute;
@@ -1319,4 +1330,59 @@ color: #EEEEF4;
     margin-top: 0;
     margin-left: -7.5%;
   }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-laptop
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 1601px) {
+  .lap_none {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-desktop
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1600px) {
+  .dkt_none {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-tablet
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1024px) {
+
+
+  .tab_none {
+    display: none;
+  }
+
+  .tab_center {
+    text-align: center;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-mobile
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 360px) {
+  .mob_none {
+    display: none;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	mine media
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1571px) {
+  .mob_none {
+    display: none;
+  }
+  #home_bio_sez {
+    height: ;
+  }
+
 }
