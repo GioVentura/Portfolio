@@ -1544,6 +1544,11 @@ ul#footer {
   }
 }
 
+@media (min-width: 530px) {
+  .mob-just {
+    display: none !important;
+  }
+}
 @media (max-width: 530px) {
   .mob-none {
     display: none !important;
@@ -1591,7 +1596,7 @@ ul#footer {
 
   #read_bio{
     top: 90%;
-left: 36%;
-font-size: 19px
+left: 15%;
+font-size: 18px
   }
 }
