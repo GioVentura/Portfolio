@@ -1542,9 +1542,9 @@ color: #EEEEF4;
     height: 650px
   }
   #home_bio_sez img{
-    width: 60%;
+    width: 67%;
     top:16% !important;
-    left: 8%;%
+    left: 16.5%;
   }
   #home_photo_sez{
     left: 0% !important;
@@ -1553,6 +1553,11 @@ color: #EEEEF4;
     background-attachment: scroll;
     background-size: cover !important;
     height: 650px
+  }
+
+  #big_hi{
+    top: 60% !important;
+    left: 20%;
   }
 
 }
