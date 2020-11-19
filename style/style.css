@@ -1556,7 +1556,7 @@ ul#footer {
 
   #home_bio_sez {
     width: 100%;
-    height: 812px
+    height: 719px
   }
 
   #home_bio_sez img {
@@ -1571,7 +1571,8 @@ top: 22% !important;
     top: 0px;
     background-attachment: scroll;
     background-size: cover !important;
-    height: 812px
+    background-position: 0% 0%;
+    height: 719px
   }
 
   #big_hi {
@@ -1582,9 +1583,15 @@ top: 22% !important;
     font-family: Beatrice Display;
     font-style: italic;
     font-weight: normal;
-    font-size: 76.5123px;
+    font-size: 5rem !important;
     line-height: 63.7%;
   }
+
+#big_photos{
+  right: 16%;
+top: 43%;
+font-size: 5rem !important;
+}
 
   /* logohome */
   #fst_hm_title  {
@@ -1600,7 +1607,5 @@ top: 22% !important;
 left: 14%;
 font-size: 18px
   }
-  #big_photos{
 
-  }
 }
