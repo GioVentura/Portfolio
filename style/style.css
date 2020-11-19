@@ -1190,6 +1190,69 @@ transition: 0.5s color;
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*	00. Playlists
+/*-----------------------------------------------------------------------------------*/
+
+.playimg{
+  width: 100%;
+}
+
+.playcaption{
+  padding: 8% 8% 0% 8%;
+}
+.playcaption h2{
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 120.8%;
+
+  color: #EEEEF4;
+
+transition: color 0.7s;
+}
+
+.playcaption a:hover{
+  text-decoration: none;
+}
+
+.playcaption h2:hover{
+    color: #FFEB37 ;
+}
+
+.playcaption p{
+  margin-top: 4%;
+  font-family: Futura Std;
+font-style: normal;
+font-weight: 200;
+font-size: 21px;
+line-height: 140.8%;
+color: #EEEEF4;
+}
+
+#conosco{
+  margin-top: 4%;
+  font-family: Futura Std;
+font-style: normal;
+font-weight: 200;
+font-size: 21px;
+line-height: 140.8%;
+color: #EEEEF4;
+transition: color 0.7s;
+}
+
+#conosco:hover{
+  text-decoration: none;
+    color: #FFEB37 ;
+}
+
+.playbox{
+  margin-top: 10%;
+}
+
+
+
+/*-----------------------------------------------------------------------------------*/
 /*	00. media height
 /*-----------------------------------------------------------------------------------*/
 @media (min-height: 880px) and (max-height: 900px) {
