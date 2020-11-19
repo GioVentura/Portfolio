@@ -1412,6 +1412,7 @@ color: #EEEEF4;
     background-size: 120%;
   }
 
+
 }
 @media (max-width: 1454px) {
 
@@ -1427,7 +1428,13 @@ color: #EEEEF4;
   #cv{
     left: -17%;
   }
-
+  #scroll_please{
+    width: 2.4%;
+    left: 48.8%;
+  }
+  #ball{
+    height: 16px;
+  }
 
 }
 @media (max-width: 1305px) {
@@ -1464,6 +1471,13 @@ color: #EEEEF4;
   #cv{
     left: -22%;
   }
+  #scroll_please{
+    width: 2.8%;
+    left: 48.6%;
+  }
+  #ball{
+    height: 15px;
+  }
 }
 @media (max-width: 1039px) {
 
@@ -1482,5 +1496,13 @@ color: #EEEEF4;
   }
   #cv{
     left: -26%;
+  }
+  #scroll_please{
+    width: 3%;
+    left: 48.5%;
+    height: 43px;
+  }
+  #ball{
+    height: 14px;
   }
 }
