@@ -1543,11 +1543,11 @@ color: #EEEEF4;
 @media (max-width: 530px) {
   #home_bio_sez {
     width: 100%;
-    height: 300px
+    height: 500px
   }
   #home_photo_sez{
     left: 0% !important;
     width: 100%;
-    top: 700px;
+    top: 500px;
   }
 }
