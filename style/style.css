@@ -1543,12 +1543,14 @@ color: #EEEEF4;
 @media (max-width: 530px) {
   #home_bio_sez {
     width: 100%;
-    height: 700px
+    height: 650px
   }
   #home_photo_sez{
     left: 0% !important;
     width: 100%;
     top: 0px;
     background-attachment: scroll;
+    background-size: cover !important;
+    height: 650px
   }
 }
