@@ -1403,9 +1403,7 @@ color: #EEEEF4;
 /*	mine media
 /*-----------------------------------------------------------------------------------*/
 @media (max-width: 1651px) {
-  .mob_none {
-    display: none;
-  }
+
   #home_photo_sez {
     background-size: 110%;
     background-position: 60% 60%;
@@ -1416,21 +1414,24 @@ color: #EEEEF4;
 
 }
 @media (max-width: 1454px) {
-  .mob_none {
-    display: none;
-  }
+
   #home_photo_sez {
     background-size: 110%;
   }
   #home_photo_sez:hover {
     background-size: 120%;
   }
+  #big_photos{
+    right:12%;
+  }
+  #cv{
+    left: -17%;
+  }
+
 
 }
 @media (max-width: 1305px) {
-  .mob_none {
-    display: none;
-  }
+
   #home_photo_sez {
     background-size: 120%;
   }
@@ -1440,14 +1441,37 @@ color: #EEEEF4;
 
 }
 @media (max-width: 1161px) {
-  .mob_none {
-    display: none;
-  }
+
   #home_photo_sez {
     background-size: 130%;
   }
   #home_photo_sez:hover {
     background-size: 140%;
   }
+  #big_photos{
+    right:8%;
+  }
+  #cv{
+    left: -22%;
+  }
+}
 
+@media (max-width: 1161px) {
+
+  #home_photo_sez {
+    background-size: 130%;
+  }
+  #home_photo_sez:hover {
+    background-size: 140%;
+  }
+  #big_photos{
+    right:8%;
+    font-size: 7rem;
+  }
+  #big_hi{
+    font-size: 7rem;
+  }
+  #cv{
+    left: -22%;
+  }
 }
