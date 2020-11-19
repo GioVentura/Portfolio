@@ -1235,7 +1235,6 @@ color: #EEEEF4;
   font-family: Futura Std;
 font-style: normal;
 font-weight: 200;
-font-size: 21px;
 line-height: 140.8%;
 color: #EEEEF4;
 transition: color 0.7s;
@@ -1251,6 +1250,39 @@ transition: color 0.7s;
 }
 
 
+
+/*-----------------------------------------------------------------------------------*/
+/*	00. large pic
+/*-----------------------------------------------------------------------------------*/
+
+
+.large_pic{
+  margin-top: 15%;
+  padding: 0 8%;
+}
+.large_pic_cd{
+  margin-top: 15%;
+}
+
+.large_pic img,.large_pic_cd img{
+  display:block;
+  width: 100%;
+}
+
+.large_pic_cap{
+width: 100%;
+margin-top: 4.5%;
+}
+.large_pic_cap p{
+text-align: center;
+display: block;
+font-family: Futura Std;
+font-style: normal;
+font-weight: 200;
+font-size: 1rem;
+line-height: 140.8%;
+color: #EEEEF4;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	00. media height
