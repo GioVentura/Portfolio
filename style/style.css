@@ -1549,6 +1549,7 @@ ul#footer {
     display: none !important;
   }
 }
+
 @media (max-width: 530px) {
   .mob-none {
     display: none !important;
@@ -1560,9 +1561,9 @@ ul#footer {
   }
 
   #home_bio_sez img {
-    width: 87%;
-left: 11%;
-top: 22% !important;
+    width: 82%;
+    left: 15%;
+    top: 22% !important;
   }
 
   #home_photo_sez {
@@ -1579,7 +1580,7 @@ top: 22% !important;
     width: 353px;
     height: 100.86px;
     left: 23px;
-    top: 14% !important;
+    top: 16% !important;
     font-family: Beatrice Display;
     font-style: italic;
     font-weight: normal;
@@ -1587,25 +1588,25 @@ top: 22% !important;
     line-height: 63.7%;
   }
 
-#big_photos{
-  right: 16%;
-top: 43%;
-font-size: 5rem !important;
-}
+  #big_photos {
+    right: 16%;
+    top: 43%;
+    font-size: 5rem !important;
+  }
 
   /* logohome */
-  #fst_hm_title  {
-    left:4%;
-    top: 10%;
+  #fst_hm_title {
+    left: 4%;
+    top: 14%;
   }
+
   #fst_hm_title img {
     width: 550%;
   }
 
-  #read_bio{
-    top: 90%;
-left: 14%;
-font-size: 18px
+  #read_bio {
+    top: 92%;
+    left: 14%;
+    font-size: 18px
   }
-
 }
