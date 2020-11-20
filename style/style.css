@@ -1809,7 +1809,7 @@ ul#menu a {
   #navbardown {
   background-color: #EEEEF4;
   position: fixed;
-  top: -70px;
+  top: -80px;
   width: 100%;
   display: block;
   transition: top 0.3s;
