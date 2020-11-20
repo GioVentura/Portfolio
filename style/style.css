@@ -1740,8 +1740,8 @@ ul#menu a {
   }
 
   #home_bio_sez img {
-    width: 82%;
-    left: 15%;
+    width: 80%;
+    left: 18%;
     top: 22% !important;
   }
 
@@ -1800,5 +1800,11 @@ ul#menu a {
   ul#footer li{
     display: block;
     text-transform: uppercase;
+    padding: 0 !important;
+    margin: 6%;
+  }
+  ul#footer{
+        padding-inline-start: 0px;
+        margin: 12%
   }
 }
