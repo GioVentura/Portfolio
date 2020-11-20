@@ -495,6 +495,33 @@ html.has-scroll-dragging {
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
 }
+
+ul#footer li a {
+  font-family: Bangla MN;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #9A9AA8;
+  transition: 0.5s color;
+}
+
+ul#footer li a:hover {
+  color: #38383D;
+  transition-delay: 0.1s;
+}
+
+ul#footer li {
+  display: inline-block;
+  margin: 1.8%;
+	margin-left: 0%;
+}
+
+ul#footer {
+  text-align: left;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	mine media
 /*-----------------------------------------------------------------------------------*/
@@ -569,7 +596,16 @@ html.has-scroll-dragging {
 
 
 }
+@media (min-width: 530px) {
+  .mob-just {
+    display: none !important;
+  }
+}
+
 @media (max-width: 530px) {
+  .mob-none {
+    display: none !important;
+  }
 
   .menu__item {
     padding-left: 5vw;
@@ -578,6 +614,24 @@ html.has-scroll-dragging {
 .menu__item-text {
     font-size: 3rem !important;
   }
+
+	.menu{
+		padding-top: 3rem;
+	}
+
+#menu_top_links	{
+margin-bottom: 10vh;
+}
+	ul#footer li{
+		display: block;
+		text-transform: uppercase;
+		padding: 0 !important;
+		margin: 6%;
+	}
+	ul#footer{
+				padding-inline-start: 0px;
+				margin: 5%
+	}
 
 
 }
