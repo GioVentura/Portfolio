@@ -1339,6 +1339,10 @@ ul#footer {
 
 }
 
+ul#menu a{
+  color: #EEEEF4;
+}
+
 #menuToggle
 {
   display: block;
@@ -1451,10 +1455,12 @@ ul#footer {
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -51px 0 0 -237px;
+  width: 276px;
+      margin: -51px 0 0 -214px;
   padding: 44px;
   padding-top: 76px;
+  padding-right: 0px;
+  height: 800px;
 
   background: #38383D;
   list-style-type: none;
