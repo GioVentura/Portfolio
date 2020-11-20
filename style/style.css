@@ -1797,6 +1797,20 @@ ul#menu a {
     text-align: center;
   }
 
+  #navbardown {
+  background-color: #EEEEF4;
+  position: fixed;
+  top: -70px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 7;
+}
+  #navbardown #first_home_nav{
+      background-color: #EEEEF4;
+      height: 80px;
+  }
+
   ul#footer li{
     display: block;
     text-transform: uppercase;
