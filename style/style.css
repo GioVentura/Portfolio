@@ -1334,8 +1334,8 @@ ul#footer {
 #mobnav{
   z-index:8;
   position: absolute;
-  top: 0px;
-  left: 30px;
+  top: -48px;
+  right: 30px;
 
 }
 
@@ -1362,7 +1362,7 @@ ul#footer {
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #FFEB37;
 }
 
 
@@ -1389,13 +1389,13 @@ ul#footer {
 #menuToggle span
 {
   display: block;
-  width: 33px;
+  width: 30px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
 
-  background: red;
-  border-radius: 3px;
+  background: #38383D;
+  border-radius: 1px;
 
   z-index: 1;
 
@@ -1452,17 +1452,17 @@ ul#footer {
 {
   position: absolute;
   width: 300px;
-  margin: -53px 0 0 -50px;
+  margin: -51px 0 0 -237px;
   padding: 44px;
   padding-top: 76px;
 
-  background: #ededed;
+  background: #38383D;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
+  transform: translate(+100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
@@ -1763,6 +1763,7 @@ ul#footer {
     left: 0% !important;
     width: 100%;
     top: 0px;
+    background-image: url('images/pezovon-min.jpg');
     background-attachment: scroll;
     background-size: cover !important;
     background-position: 0% 0%;
