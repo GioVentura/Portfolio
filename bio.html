@@ -19,20 +19,97 @@
 
 <body style="background-color:#EEEEF4;">
   <nav id="first_home_nav">
-    <a id="fst_hm_contacts" href="contacts.html">Contacts</a>
+    <a id="fst_hm_contacts" class="mob-none" href="contacts.html">Contacts</a>
     <a href="index.html">
       <div id="fst_hm_title">
         <img src="style/images/GioVenturaLogo.png">
       </div>
     </a>
-    <a id="fst_bio_works" href="works.html">Works</a>
+    <a id="fst_bio_works" class="mob-none" href="works.html">Works</a>
   </nav>
+  <nav id="mobnav"  class="mob-just" role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+
+    <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="index.html"><li>Home</li></a>
+      <a href="works.html"><li>Works</li></a>
+      <a href="bio.html"><li>Bio</li></a>
+      <a href="photos.html"><li>Photos</li></a>
+      <a href="contacts.html"><li>Contacts</li></a>
+    </ul>
+  </div>
+</nav>
+  <div class="mob-just" id="navbardown">
+    <nav id="first_home_nav">
+      <a id="arrivo" name="ancora"></a>
+      <a class="mob-none" id="fst_hm_contacts" href="contacts.html">Contacts</a>
+      <a href="index.html">
+        <div id="fst_hm_title">
+          <img src="style/images/GioVenturaLogo.png">
+        </div>
+      </a>
+      <a class="mob-none" id="fst_hm_works" href="works.html">Works</a>
+
+    </nav>
+
+  <!-- mobile nav hamburger -->
+    <nav id="mobnav"  class="mob-just" role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+
+      <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="index.html"><li>Home</li></a>
+        <a href="works.html"><li>Works</li></a>
+        <a href="bio.html"><li>Bio</li></a>
+        <a href="photos.html"><li>Photos</li></a>
+        <a href="contacts.html"><li>Contacts</li></a>
+      </ul>
+    </div>
+  </nav>
+</div>
   <div class="container-fluid" style="padding-left: 8%; padding-right: 8%;">
 
-    <h1 id="IBelieve_bio">I believe that our <a id="works_ibelieve" href="works.html">works</a> should be enough to define<br>
-      who we truly are, but the choices we make and the<br>
-      people we meet are important too.<br>
-      So if you want to read a short story from and about me,<br>
+    <h1 id="IBelieve_bio">I believe that our <a id="works_ibelieve" href="works.html">works</a> should be enough to define<br class="brnone">
+      who we truly are, but the choices we make and the<br class="brnone">
+      people we meet are important too.<br class="brnone">
+      So if you want to read a short story from and about me,<br class="brnone">
       ok, here we go.</h1>
 
     <img id="io_bio" src="style/images/io_bio.jpg" style="margin-bottom: 11%;">

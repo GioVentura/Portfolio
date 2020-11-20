@@ -1596,6 +1596,12 @@ ul#menu a {
     background-size: 120%;
   }
 }
+@media (max-width: 1560px) {
+
+.brnone{
+  display: none;
+}
+}
 
 @media (max-width: 1454px) {
   #home_photo_sez {
@@ -1649,6 +1655,14 @@ ul#menu a {
   #big_hi {
     font-size: 8rem;
   }
+
+  #IBelieve_bio{
+    margin-top: 22%;
+  }
+
+  #fst_hm_title img{
+    width: 120%;
+  }
 }
 
 @media (max-width: 1161px) {
@@ -1663,6 +1677,9 @@ ul#menu a {
   #big_photos {
     right: 14%;
     font-size: 6.5rem;
+  }
+  #io_bio{
+    width: 100%;
   }
 
   #big_hi {
@@ -1730,6 +1747,11 @@ ul#menu a {
     top: 30% !important;
     left: 32%
   }
+  #gifbox{
+    padding: 0;
+    margin-top: 8%;
+
+  }
 }
 
 @media (min-width: 530px) {
@@ -1785,7 +1807,7 @@ ul#menu a {
 
   /* logohome */
   #fst_hm_title {
-    left: 5%;
+    left: 7%;
     top: 17%;
   }
 
@@ -1834,4 +1856,23 @@ ul#menu a {
         padding-inline-start: 0px;
         margin: 12%
   }
+#IBelieve_bio{
+  margin-top: 40%;
+  font-size: 35px;
+  margin-bottom: 30%;
+}
+
+#bio_row div p {
+  font-size: 16px;
+}
+
+#number-gif {
+  font-size: 16px !important;
+}
+#caption-gif  {
+  font-size: 16px !important;
+  text-align: left;
+}
+
+
 }
