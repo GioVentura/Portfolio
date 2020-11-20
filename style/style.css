@@ -100,7 +100,7 @@ ul {
 }
 
 #home_photo_sez {
-  background-image: url("images/pezovon.jpg");
+  background-image: url("images/pezovon-min.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: left 60%;
@@ -116,6 +116,9 @@ ul {
   cursor: url("images/photos.png"), auto;
   transition: background-size 5s;
   transition-timing-function: ease-out;
+}
+#hq_pezo {
+  display: none;
 }
 
 #home_photo_sez:hover {
@@ -480,11 +483,11 @@ a.none:hover {
 }
 
 #bio_row div p {
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   text-align: justify;
   font-weight: 200;
-  font-size: 23px;
+  font-size: 24px;
   line-height: 184.8%;
   color: #38383D;
 }
@@ -745,10 +748,10 @@ a.none:hover {
 
 #sentence_div_ph p {
   margin-top: 2.7%;
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 21px;
+  font-size: 23px;
   line-height: 140.8%;
   color: #38383D;
 }
@@ -758,11 +761,11 @@ a.none:hover {
 }
 
 .captionph {
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 11px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 15px;
   text-align: right;
   margin-top: 2%;
   color: #38383D;
@@ -998,10 +1001,10 @@ ul#footer {
 }
 
 .descr {
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 140.8%;
   color: #EEEEF4;
   padding: 0 0 0 2.5%;
@@ -1228,17 +1231,17 @@ ul#footer {
 
 .playcaption p {
   margin-top: 4%;
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 21px;
+  font-size: 25px;
   line-height: 140.8%;
   color: #EEEEF4;
 }
 
 #conosco {
   margin-top: 4%;
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 200;
   line-height: 140.8%;
@@ -1280,10 +1283,10 @@ ul#footer {
 .large_pic_cap p {
   text-align: center;
   display: block;
-  font-family: Futura Std;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 140.8%;
   color: #EEEEF4;
 }
