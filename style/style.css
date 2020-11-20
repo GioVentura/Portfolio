@@ -103,7 +103,7 @@ ul {
   background-image: url("images/pezovon.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: left 60%;
+  background-position: -430% 60%;
   background-size: cover;
   background-size: 100%;
   width: 50%;
@@ -1589,7 +1589,7 @@ ul#menu a {
 @media (max-width: 1651px) {
   #home_photo_sez {
     background-size: 110%;
-    background-position: 60% 60%;
+    background-position: -430% 60%;
   }
 
   #home_photo_sez:hover {
@@ -1642,6 +1642,7 @@ ul#menu a {
 @media (max-width: 1305px) {
   #home_photo_sez {
     background-size: 120%;
+    background-position: -237% 60%;
   }
 
   #home_photo_sez:hover {
@@ -1668,6 +1669,7 @@ ul#menu a {
 @media (max-width: 1161px) {
   #home_photo_sez {
     background-size: 130%;
+      background-position: -157% 30%;
   }
 
   #home_photo_sez:hover {
