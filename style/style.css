@@ -1595,6 +1595,10 @@ ul#menu a {
   #home_photo_sez:hover {
     background-size: 120%;
   }
+  #sentence_div {
+      padding-left: 30%;
+    }
+
 }
 @media (max-width: 1560px) {
 
@@ -1660,6 +1664,9 @@ ul#menu a {
   #IBelieve_bio{
     margin-top: 22%;
   }
+  #sentence_div {
+      padding-left: 27%;
+    }
 
   #fst_hm_title img{
     width: 120%;
@@ -1675,6 +1682,11 @@ ul#menu a {
   #home_photo_sez:hover {
     background-size: 140%;
   }
+
+  #sentence_div {
+      padding-left: 21%;
+    }
+
 
   #big_photos {
     right: 14%;
@@ -1711,6 +1723,9 @@ ul#menu a {
   #home_bio_sez {
     height: 620px;
   }
+  #sentence_div {
+      padding-left: 16%;
+    }
 
   #home_bio_sez img {
     top: 18% !important;
@@ -1752,8 +1767,10 @@ ul#menu a {
   #gifbox{
     padding: 0;
     margin-top: 8%;
-
   }
+  #sentence_div {
+      padding-left: 12%;
+    }
 }
 
 @media (min-width: 530px) {
