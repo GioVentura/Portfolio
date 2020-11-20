@@ -495,3 +495,89 @@ html.has-scroll-dragging {
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
 }
+/*-----------------------------------------------------------------------------------*/
+/*	mine media
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1651px) {
+  #home_photo_sez {
+    background-size: 110%;
+    background-position: 60% 60%;
+  }
+
+  #home_photo_sez:hover {
+    background-size: 120%;
+  }
+}
+
+@media (max-width: 1454px) {
+
+  .menu__item {
+    padding-left: 22vw;
+    justify-content: initial;
+}
+.menu__item-text {
+    font-size: 6.5rem !important;
+  }
+
+
+}
+@media (max-width: 1290px) {
+
+  .menu__item {
+    padding-left: 18vw;
+    justify-content: initial;
+}
+.menu__item-text {
+    font-size: 6rem !important;
+  }
+
+
+}
+@media (max-width: 1144px) {
+
+  .menu__item {
+    padding-left: 13vw;
+    justify-content: initial;
+}
+.menu__item-text {
+    font-size: 5rem !important;
+  }
+
+
+}
+@media (max-width: 944px) {
+
+  .menu__item {
+    padding-left: 5vw;
+    justify-content: initial;
+}
+.menu__item-text {
+    font-size: 5rem !important;
+  }
+
+
+}
+@media (max-width: 680px) {
+
+  .menu__item {
+    padding-left: 5vw;
+    justify-content: initial;
+}
+.menu__item-text {
+    font-size: 3.8rem !important;
+  }
+
+
+}
+@media (max-width: 530px) {
+
+  .menu__item {
+    padding-left: 5vw;
+    justify-content: initial;
+}
+.menu__item-text {
+    font-size: 3rem !important;
+  }
+
+
+}
