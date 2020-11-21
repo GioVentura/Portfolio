@@ -103,7 +103,7 @@ ul {
   background-image: url("images/pezovon.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
   background-size: 100%;
   width: 50%;
@@ -817,13 +817,25 @@ a.none:hover {
 
 .bottomph {
   margin-bottom: 15%;
-  "
 
 }
 
 #phfavi {
   margin-top: 5%;
   width: 100%;
+}
+
+#phconcorde{
+  display: inline-block;
+  float: left;
+  padding: 0;
+  width:59.2% ;
+}
+#phmont{
+  display: inline-block;
+  padding: 0;
+  width:37.8% ;
+  margin-left: 3%;
 }
 
 #space {
@@ -1788,8 +1800,19 @@ font-size: 6.1rem;
 
 @media (max-width: 900px) {
   #home_bio_sez img {
-    top: 30% !important;
+    top: 35% !important;
     left: 32%
+  }
+
+  .tab-none {
+    display: none !important;
+  }
+
+  #big_hi{
+    top: 25% !important;
+  }
+  #home_bio_sez {
+    height: 500px;
   }
   #gifbox{
     padding: 0;
@@ -1807,16 +1830,64 @@ font-size: 6.1rem;
     #big_photos {
       top: 59%;
     }
-    #home_bio_sez img{
-
+    #home_photo_sez{
+      height: 500px;
     }
+    #cv{
+      left: -35%;
+      top: 27%;
+      font-size: 11px;
+    }
+
+  #read_bio{
+    top: 43%;
+    font-size: 11px;
+  }
+  #phfavi{
+    width: 576%;
+    margin-top:12%;
+  }
+
+  #overflow-large{
+    overflow-x: scroll;
+  }
+
+
+  #swipeph1 {
+    position: absolute;
+    top: 353%;
+    left: 40%;
+    display: inline-block;
+    color: #EEEEF4;
+    font-family: 'Bangla MN';
+    font-weight: normal;
+    font-size: 15px;
+    z-index: 8;
+    cursor: pointer;
+    opacity: 0;
+    animation: lamp 2s ease-in-out 2.2s infinite alternate;
+    text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
+  }
+  #phcimitero{
+    width: 100%;
+  }
+  #phgenova{
+    width: 100%;
+    margin-top:12%;
+  }
 }
 
+@media (min-width: 800px) {
+  .tab-just {
+    display: none !important;
+  }
+}
 @media (min-width: 530px) {
   .mob-just {
     display: none !important;
   }
 }
+
 
 @media (max-width: 530px) {
   .mob-none {
@@ -1962,27 +2033,13 @@ font-size: 6.1rem;
 #phgenova{
   width: 100%;
 }
-#overflow-large{
-  overflow-x: scroll;
-}
-#phfavi{
-  width: 576%;
-}
 
 #swipeph1 {
-  position: absolute;
+
   top: 307%;
   left: 41.5%;
-  display: inline-block;
-  color: #EEEEF4;
-  font-family: 'Bangla MN';
-  font-weight: normal;
-  font-size: 15px;
-  z-index: 8;
-  cursor: pointer;
-  opacity: 0;
-  animation: lamp 2s ease-in-out 2.2s infinite alternate;
-  text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
+
 }
+
 
 }
