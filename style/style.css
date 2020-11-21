@@ -769,9 +769,9 @@ a.none:hover {
 #sentence_div_ph {
   padding-left: 22%;
   padding-right: 22%;
-  padding-top: 170px;
+  padding-top: 12%;
   width: 100%;
-  height: 640px;
+  padding-bottom: 10%;
 }
 
 #sentence_div_ph h2 {
@@ -1679,6 +1679,11 @@ ul#menu a {
   #fst_hm_title img{
     width: 120%;
   }
+  #sentence_div_ph {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
 }
 
 @media (max-width: 1161px) {
@@ -1792,6 +1797,12 @@ font-size: 6.1rem;
   }
   #sentence_div {
       padding-left: 12%;
+    }
+    #photos_pezo{
+      font-size: 5.2rem;
+    }
+    #containerpezo{
+      padding-top: 24.3%;
     }
 }
 
@@ -1915,5 +1926,57 @@ font-size: 6.1rem;
   text-align: left;
 }
 
+#photos_pezo{
+  font-size: 3.5rem;
+}
+#containerpezo{
+  padding-top: 24%;
+
+}
+.containerfull{
+    height: 248px;
+}
+#sentence_div_ph {
+  padding-left: 10%;
+  padding-right: 8%;
+  padding-top: 16%;
+  padding-bottom: 14%;
+}
+
+#sentence_div_ph h2 {
+    margin-bottom: 6%;
+}
+#sentence_div_ph p {
+    font-size: 16px;
+}
+
+#phcimitero{
+  width: 100%;
+}
+#phgenova{
+  width: 100%;
+}
+#overflow-large{
+  overflow-x: scroll;
+}
+#phfavi{
+  width: 576%;
+}
+
+#swipeph1 {
+  position: absolute;
+  top: 307%;
+  left: 41.5%;
+  display: inline-block;
+  color: #EEEEF4;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+  z-index: 8;
+  cursor: pointer;
+  opacity: 0;
+  animation: lamp 2s ease-in-out 2.2s infinite alternate;
+  text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
+}
 
 }

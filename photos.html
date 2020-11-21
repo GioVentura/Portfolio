@@ -19,86 +19,187 @@
 
 <body id="prova">
   <nav id="first_home_nav">
-        <a id="arrivo" name="phancora"></a>
-    <a id="fst_hm_bio" href="index.html">Home</a>
+    <a id="arrivo" name="phancora"></a>
+    <a id="fst_hm_bio" class="mob-none" href="index.html">Home</a>
   </nav>
 
-   <div class="containerfull" id="containerpezo">
-     <p id="photos_pezo">Photos</p>
-   </div>
-   <div id="sentence_div_ph">
-     <h2>NOT A PHOTOGRAPHER.</h2>
-     <p>I don't consider myself as a professional photographer.
-       This page has the simple purpose of showing another side of my personality through some of my photographs.
-       I think that the photos taken by a person can convey additional implicit information about him.
-       For this reason I find correct to dedicate a section within a portfolio to this.<br>
-Now that being said, I do not hide my growing passion and my interest in photography, a unique means of expression, which I intend to cultivate and deepen soon.</p>
-   </div>
-   <div class="container-fluid bottomph" style="padding: 0 10%;">
-     <div class="row">
-       <div class="col-12 col-lg-6 relative" style="padding: 0;">
-         <img id="phcimitero" src="style/images/cimitero.jpg">
-         <p class="captionph" style="margin-right: 8%;">Monumental Cemetery, Milano.</p>
-       </div>
-       <div class="col-12 col-lg-6 relative">
-         <img id="phgenova" src="style/images/genova.jpg">
-         <p class="captionph" style="margin-right: -2.6%;">Genova conditioning, shot by the train.</p>
-       </div>
-     </div>
-     <div class="row">
-         <img id="phfavi" src="style/images/cloudypost.jpg">
-         <div id="space"></div>
-         <p class="captionph" style="display: inline-block; margin-top: 1%;">Cloudy Day in Favignana.</p>
-     </div>
-   </div>
+  <nav id="mobnav" class="mob-just" role="navigation">
+    <div id="menuToggle">
+      <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+      <input type="checkbox" />
 
-<div class="bottomph">
-       <div style="display: inline-block; float: left; padding: 0; width:59.2% !important;">
-         <img src="style/images/placeConcorde.jpg" style="width:100%">
-         <p class="captionph">Place de la Concorde, Paris.</p>
-       </div>
-       <div style="display: inline-block; padding: 0; width:37.8% !important; margin-left: 3%;">
-         <img src="style/images/SaintJean.jpg" style="width:100%">
-         <p class="captionph" style="margin-top: 3%;">Le Saint Jean, Montmartre, Paris.</p>
-       </div>
- </div>
+      <!--
+    Some spans to act as a hamburger.
 
- <div id="div_sLorenzo" class="bottomph">
-   <img src="style/images/sanLorenzo.jpg" style="width:100%">
-   <p class="captionph" style="margin-top: 3%;">Dome of San Lorenzo, Guarino Guarini, Torino.</p>
- </div>
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+      <span style="background: #EEEEF4 !important"></span>
+      <span style="background: #EEEEF4 !important"></span>
+      <span style="background: #EEEEF4 !important"></span>
 
-<div class="bottomph">
-  <div class="mobnone" id="space2"></div>
-  <div class="sicily">
-    <img src="style/images/duomoNaro.jpg" style="width:100%">
-    <p class="captionph">Ruined Cathedral of Naro, Sicily.</p>
+      <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+      <ul id="menu">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="works.html">
+          <li>Works</li>
+        </a>
+        <a href="bio.html">
+          <li>Bio</li>
+        </a>
+        <a href="photos.html">
+          <li>Photos</li>
+        </a>
+        <a href="contacts.html">
+          <li>Contacts</li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <div class="mob-just" id="navbardown">
+    <nav id="first_home_nav">
+      <a id="arrivo" name="ancora"></a>
+      <a class="mob-none" id="fst_hm_contacts" href="contacts.html">Contacts</a>
+      <a href="index.html">
+        <div id="fst_hm_title">
+          <img src="style/images/GioVenturaLogo.png">
+        </div>
+      </a>
+      <a class="mob-none" id="fst_hm_works" href="works.html">Works</a>
+
+    </nav>
+
+    <!-- mobile nav hamburger -->
+    <nav id="mobnav" class="mob-just" role="navigation">
+      <div id="menuToggle">
+        <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+        <input type="checkbox" />
+
+        <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+        <ul id="menu">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="works.html">
+            <li>Works</li>
+          </a>
+          <a href="bio.html">
+            <li>Bio</li>
+          </a>
+          <a href="photos.html">
+            <li>Photos</li>
+          </a>
+          <a href="contacts.html">
+            <li>Contacts</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
   </div>
-  <div class="sicily" style="margin-left: -0.25% !important;">
-    <img src="style/images/agrumi.jpg" style="width:100%">
-    <p class="captionph">Sicilian agrumi, Naro, Sicily.</p>
-  </div>
-</div>
 
-<div id="identikit">
+  <div class="containerfull" id="containerpezo">
+    <p id="photos_pezo">Photos</p>
+  </div>
+  <div id="sentence_div_ph">
+    <h2>NOT A PHOTOGRAPHER.</h2>
+    <p>I don't consider myself as a professional photographer.
+      This page has the simple purpose of showing another side of my personality through some of my photographs.
+      I think that the photos taken by a person can convey additional implicit information about him.
+      For this reason I find correct to dedicate a section within a portfolio to this.<br>
+      Now that being said, I do not hide my growing passion and my interest in photography, a unique means of expression, which I intend to cultivate and deepen soon.</p>
+  </div>
+  <div class="container-fluid bottomph" style="padding: 0 10%;">
+    <div class="row">
+      <div class="col-12 col-lg-6 relative" style="padding: 0;">
+        <img id="phcimitero" src="style/images/cimitero.jpg">
+        <p class="captionph" style="margin-right: 8%;">Monumental Cemetery, Milano.</p>
+      </div>
+      <div class="col-12 col-lg-6 relative">
+        <img id="phgenova" src="style/images/genova.jpg">
+        <p class="captionph" style="margin-right: -2.6%;">Genova conditioning, shot by the train.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div id="overflow-large" class="mob-just">
+        <p class="mob-just lamp" id="swipeph1">swipe &#8594;<p>
+        <img id="phfavi" src="style/images/cloudypost.jpg">
+        <div id="space"></div>
+        <p class="captionph" style="display: inline-block; margin-top: 1%;">Cloudy Day in Favignana.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottomph">
+    <div style="display: inline-block; float: left; padding: 0; width:59.2% !important;">
+      <img src="style/images/placeConcorde.jpg" style="width:100%">
+      <p class="captionph">Place de la Concorde, Paris.</p>
+    </div>
+    <div style="display: inline-block; padding: 0; width:37.8% !important; margin-left: 3%;">
+      <img src="style/images/SaintJean.jpg" style="width:100%">
+      <p class="captionph" style="margin-top: 3%;">Le Saint Jean, Montmartre, Paris.</p>
+    </div>
+  </div>
+
+  <div id="div_sLorenzo" class="bottomph">
+    <img src="style/images/sanLorenzo.jpg" style="width:100%">
+    <p class="captionph" style="margin-top: 3%;">Dome of San Lorenzo, Guarino Guarini, Torino.</p>
+  </div>
+
+  <div class="bottomph">
+    <div class="mobnone" id="space2"></div>
+    <div class="sicily">
+      <img src="style/images/duomoNaro.jpg" style="width:100%">
+      <p class="captionph">Ruined Cathedral of Naro, Sicily.</p>
+    </div>
+    <div class="sicily" style="margin-left: -0.25% !important;">
+      <img src="style/images/agrumi.jpg" style="width:100%">
+      <p class="captionph">Sicilian agrumi, Naro, Sicily.</p>
+    </div>
+  </div>
+
+  <div id="identikit">
     <img src="style/images/Idnetikit.jpg" style="width:100%">
     <p class="captionph" style="margin-top: 1%;">Identikit, from an idea by luigi ghirri, Milano.</p>
-</div>
+  </div>
 
-<div id="superlove">
+  <div id="superlove">
     <img src="style/images/supercro.jpg" style="width:100%">
     <p class="captionph" style="margin-top: 1%;">Chronicles from a night at SuperLove, Milano.</p>
-</div>
+  </div>
 
 
-<footer>
-  <ul id="footer">
-    <li><a href="index.html">home</a></li>
-    <li><a href="works.html">works</a></li>
-    <li><a href="contacts.html">contacts</a></li>
-    <li><a href="#phancora">top</a></li>
-  </ul>
-</footer>
+  <footer>
+    <ul id="footer">
+      <li><a href="index.html">home</a></li>
+      <li><a href="works.html">works</a></li>
+      <li><a href="contacts.html">contacts</a></li>
+      <li><a href="#phancora">top</a></li>
+    </ul>
+  </footer>
 
   <!-- Optional JavaScript -->
   <script src="style/script.js"></script>
