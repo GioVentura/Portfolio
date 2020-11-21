@@ -1602,6 +1602,10 @@ ul#menu a {
     /* background-position: -430% 60%; */
   }
 
+  #space2{
+    width: 30.9%;
+  }
+
   #home_photo_sez:hover {
     background-size: 120%;
   }
@@ -1659,6 +1663,10 @@ ul#menu a {
     /* background-position: -237% 60%; */
   }
 
+  #space2{
+    width: 30.8%;
+  }
+
   #home_photo_sez:hover {
     background-size: 130%;
   }
@@ -1700,6 +1708,9 @@ ul#menu a {
   #home_photo_sez {
     background-size: 130%;
       /* background-position: -157% 30%; */
+  }
+  #space2{
+    width: 30.7%;
   }
 
   #home_photo_sez:hover {
@@ -1874,6 +1885,31 @@ font-size: 6.1rem;
   #phgenova{
     width: 100%;
     margin-top:12%;
+  }
+
+  div > #phconcorde{
+    padding:0 6%;
+  }
+  div > #phmont{
+    padding:10% 6% 0 6%;
+  }
+
+  #phconcorde{
+    display: block;
+    float: clear;
+    width:100% ;
+    margin-top:8%;
+  }
+  #phmont{
+    display: block;
+    width:100%;
+    margin-left: 0%;
+    margin-top:12%;
+  }
+  #div_sLorenzo{
+width:100%;
+padding: 0 6%;
+margin-left: 0%;
   }
 }
 
