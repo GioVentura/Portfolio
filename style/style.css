@@ -103,7 +103,7 @@ ul {
   background-image: url("images/pezovon.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: -430% 60%;
+  background-position: center center;
   background-size: cover;
   background-size: 100%;
   width: 50%;
@@ -114,7 +114,7 @@ ul {
   display: inline-block;
   z-index: 1;
   cursor: url("images/photos.png"), auto;
-  transition: background-size 7s;
+  transition: background-size 5s;
   transition-timing-function: ease-out;
 }
 
@@ -145,7 +145,7 @@ ul {
 
 #home_photo_sez:hover {
   background-size: 110%;
-    background-position: -430% 60%;
+    /* background-position: -430% 60%; */
 }
 
 
@@ -1587,7 +1587,7 @@ ul#menu a {
 @media (max-width: 1651px) {
   #home_photo_sez {
     background-size: 110%;
-    background-position: -430% 60%;
+    /* background-position: -430% 60%; */
   }
 
   #home_photo_sez:hover {
@@ -1615,7 +1615,7 @@ ul#menu a {
   }
 
   #big_photos {
-    right: 12%;
+    right: 22%;
   }
 
   #cv {
@@ -1644,7 +1644,7 @@ ul#menu a {
 @media (max-width: 1305px) {
   #home_photo_sez {
     background-size: 120%;
-    background-position: -237% 60%;
+    /* background-position: -237% 60%; */
   }
 
   #home_photo_sez:hover {
@@ -1687,7 +1687,7 @@ ul#menu a {
 @media (max-width: 1161px) {
   #home_photo_sez {
     background-size: 130%;
-      background-position: -157% 30%;
+      /* background-position: -157% 30%; */
   }
 
   #home_photo_sez:hover {
@@ -1749,7 +1749,8 @@ font-size: 6.1rem;
     }
 
   #home_bio_sez img {
-    top: 18% !important;
+        top: 27% !important;
+        left: 31%;
   }
 
   #home_photo_sez:hover {
@@ -1762,11 +1763,12 @@ font-size: 6.1rem;
 
   #big_photos {
     right: 20%;
-    font-size: 6rem;
+    font-size: 4.2rem !important;
   }
 
   #big_hi {
-    font-size: 6rem;
+    font-size: 4.2rem !important;
+    top: 19% !important;
   }
 
   #cv {
@@ -1801,6 +1803,12 @@ font-size: 6.1rem;
     }
     #containerpezo{
       padding-top: 24.3%;
+    }
+    #big_photos {
+      top: 59%;
+    }
+    #home_bio_sez img{
+
     }
 }
 
