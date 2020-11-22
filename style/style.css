@@ -145,9 +145,8 @@ ul {
 
 #home_photo_sez:hover {
   background-size: 110%;
-    /* background-position: -430% 60%; */
+  /* background-position: -430% 60%; */
 }
-
 
 #scroll_please {
   position: absolute;
@@ -817,7 +816,6 @@ a.none:hover {
 
 .bottomph {
   margin-bottom: 15%;
-
 }
 
 #phfavi {
@@ -825,16 +823,17 @@ a.none:hover {
   width: 100%;
 }
 
-#phconcorde{
+#phconcorde {
   display: inline-block;
   float: left;
   padding: 0;
-  width:59.2% ;
+  width: 59.2%;
 }
-#phmont{
+
+#phmont {
   display: inline-block;
   padding: 0;
-  width:37.8% ;
+  width: 37.8%;
   margin-left: 3%;
 }
 
@@ -1342,7 +1341,7 @@ ul#footer {
 /*	00. hamburger
 /*-----------------------------------------------------------------------------------*/
 #mobnav {
-  z-index: 8;
+  z-index: 9;
   position: absolute;
   top: -48px;
   right: 30px;
@@ -1360,7 +1359,7 @@ ul#menu a {
   position: relative;
   top: 70px;
   right: 0px;
-  z-index: 10;
+  z-index: 11;
   -webkit-user-select: none;
   user-select: none;
 }
@@ -1401,7 +1400,7 @@ ul#menu a {
   position: relative;
   background: #38383D;
   border-radius: 1px;
-  z-index: 1;
+  z-index: 10;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
@@ -1452,7 +1451,7 @@ ul#menu a {
   padding-left: 39px;
   padding-top: 76px;
   padding-right: 0px;
-  height: 800px;
+  height: 850px;
   background: #38383D;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -1602,23 +1601,23 @@ ul#menu a {
     /* background-position: -430% 60%; */
   }
 
-  #space2{
+  #space2 {
     width: 30.9%;
   }
 
   #home_photo_sez:hover {
     background-size: 120%;
   }
+
   #sentence_div {
-      padding-left: 30%;
-    }
-
+    padding-left: 30%;
+  }
 }
+
 @media (max-width: 1560px) {
-
-.brnone{
-  display: none;
-}
+  .brnone {
+    display: none;
+  }
 }
 
 @media (max-width: 1454px) {
@@ -1646,15 +1645,15 @@ ul#menu a {
   #ball {
     height: 16px;
   }
+
   .menu__item {
     padding-left: 22vw;
     justify-content: initial;
-}
-.menu__item-text {
-    font-size: 6.4rem !important;
   }
 
-
+  .menu__item-text {
+    font-size: 6.4rem !important;
+  }
 }
 
 @media (max-width: 1305px) {
@@ -1663,7 +1662,7 @@ ul#menu a {
     /* background-position: -237% 60%; */
   }
 
-  #space2{
+  #space2 {
     width: 30.8%;
   }
 
@@ -1674,12 +1673,14 @@ ul#menu a {
   #big_photos {
     font-size: 8em;
   }
-  #photos_pezo{
+
+  #photos_pezo {
     font-size: 8.1rem;
   }
+
   .containerfull {
-      width: 100%;
-      height: 695px;
+    width: 100%;
+    height: 695px;
     padding-top: 20.3%;
   }
 
@@ -1687,29 +1688,31 @@ ul#menu a {
     font-size: 8rem;
   }
 
-  #IBelieve_bio{
+  #IBelieve_bio {
     margin-top: 22%;
   }
-  #sentence_div {
-      padding-left: 27%;
-    }
 
-  #fst_hm_title img{
+  #sentence_div {
+    padding-left: 27%;
+  }
+
+  #fst_hm_title img {
     width: 120%;
   }
+
   #sentence_div_ph {
     padding-top: 10%;
     padding-bottom: 10%;
   }
-
 }
 
 @media (max-width: 1161px) {
   #home_photo_sez {
     background-size: 130%;
-      /* background-position: -157% 30%; */
+    /* background-position: -157% 30%; */
   }
-  #space2{
+
+  #space2 {
     width: 30.7%;
   }
 
@@ -1718,25 +1721,25 @@ ul#menu a {
   }
 
   #sentence_div {
-      padding-left: 21%;
-    }
+    padding-left: 21%;
+  }
 
-    .containerfull {
-        width: 100%;
-        height: 578px;
-      padding-top: 20.3%;
-    }
+  .containerfull {
+    width: 100%;
+    height: 578px;
+    padding-top: 20.3%;
+  }
 
-    #photos_pezo{
-font-size: 6.1rem;
-    }
-
+  #photos_pezo {
+    font-size: 6.1rem;
+  }
 
   #big_photos {
     right: 14%;
     font-size: 6.5rem;
   }
-  #io_bio{
+
+  #io_bio {
     width: 100%;
   }
 
@@ -1767,20 +1770,21 @@ font-size: 6.1rem;
   #home_bio_sez {
     height: 620px;
   }
+
   #sentence_div {
-      padding-left: 16%;
-    }
+    padding-left: 16%;
+  }
 
   #home_bio_sez img {
-        top: 27% !important;
-        left: 31%;
+    top: 27% !important;
+    left: 31%;
   }
 
   #home_photo_sez:hover {
     background-size: 140%;
   }
 
-  #photos_pezo{
+  #photos_pezo {
     font-size: 7.1rem;
   }
 
@@ -1819,50 +1823,58 @@ font-size: 6.1rem;
     display: none !important;
   }
 
-  #big_hi{
+  #big_hi {
     top: 25% !important;
   }
+
   #home_bio_sez {
     height: 500px;
   }
-  #gifbox{
+
+  #gifbox {
     padding: 0;
     margin-top: 8%;
   }
-  #sentence_div {
-      padding-left: 12%;
-    }
-    #photos_pezo{
-      font-size: 5.2rem;
-    }
-    #containerpezo{
-      padding-top: 24.3%;
-    }
-    #big_photos {
-      top: 59%;
-    }
-    #home_photo_sez{
-      height: 500px;
-    }
-    #cv{
-      left: -35%;
-      top: 27%;
-      font-size: 11px;
-    }
 
-  #read_bio{
+  #sentence_div {
+    padding-left: 12%;
+  }
+
+  #photos_pezo {
+    font-size: 5.2rem;
+  }
+
+  #containerpezo {
+    padding-top: 24.3%;
+  }
+
+  #big_photos {
+    top: 59%;
+  }
+
+  #home_photo_sez {
+    height: 500px;
+  }
+
+  #cv {
+    left: -35%;
+    top: 27%;
+    font-size: 11px;
+  }
+
+  #read_bio {
     top: 43%;
     font-size: 11px;
   }
-  #phfavi{
+
+  #phfavi {
     width: 576%;
-    margin-top:12%;
+    margin-top: 12%;
   }
 
-  #overflow-large{
+  #overflow-large {
     overflow-x: scroll;
   }
-
 
   #swipeph1 {
     position: absolute;
@@ -1873,79 +1885,89 @@ font-size: 6.1rem;
     font-family: 'Bangla MN';
     font-weight: normal;
     font-size: 15px;
-    z-index: 8;
+    z-index: 6;
     cursor: pointer;
     opacity: 0;
     animation: lamp 2s ease-in-out 2.2s infinite alternate;
     text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
   }
+
   #swipeph2 {
     position: absolute;
-    top: 973%;
+    top: 945%;
     left: 48%;
     display: inline-block;
     color: #EEEEF4;
     font-family: 'Bangla MN';
     font-weight: normal;
     font-size: 15px;
-    z-index: 8;
+    z-index: 6;
     cursor: pointer;
     opacity: 0;
     animation: lamp 2s ease-in-out 2.2s infinite alternate;
     text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
   }
-  #phcimitero{
+
+  #phcimitero {
     width: 100%;
   }
-  #phgenova{
+
+  #phgenova {
     width: 100%;
-    margin-top:12%;
+    margin-top: 12%;
   }
 
-  div > #phconcorde{
-    padding:0 6%;
-  }
-  div > #phmont{
-    padding:10% 6% 0 6%;
-  }
-
-  #phconcorde{
-    display: block;
-    float: clear;
-    width:100% ;
-    margin-top:8%;
-  }
-  #phmont{
-    display: block;
-    width:100%;
-    margin-left: 0%;
-    margin-top:12%;
-  }
-  #div_sLorenzo{
-width:100%;
-padding: 0 6%;
-margin-left: 0%;
-  }
-
-  #space2{
-    width: 0%;
-  }
-  div > .sicily{
+  div>#phconcorde {
     padding: 0 6%;
   }
-  .sicily{
+
+  div>#phmont {
+    padding: 10% 6% 0 6%;
+  }
+
+  #phconcorde {
+    display: block;
+    float: clear;
+    width: 100%;
+    margin-top: 8%;
+  }
+
+  #phmont {
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 12%;
+  }
+
+  #div_sLorenzo {
+    width: 100%;
+    padding: 0 6%;
+    margin-left: 0%;
+  }
+
+  #space2 {
+    width: 0%;
+  }
+
+  div>.sicily {
+    padding: 0 6%;
+  }
+
+  .sicily {
     display: block;
   }
-  .sicily:nth-child(2){
-    width: 100%;
-  }
-  .sicily:nth-child(3){
-    width: 100%;
-  }
-#footer{
-  margin-top: 6%;
-}
 
+  .sicily:nth-child(2) {
+    width: 100%;
+  }
+
+  .sicily:nth-child(3) {
+    width: 100%;
+  }
+
+  #footer {
+    margin-top: 6%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -1953,12 +1975,12 @@ margin-left: 0%;
     display: none !important;
   }
 }
+
 @media (min-width: 530px) {
   .mob-just {
     display: none !important;
   }
 }
-
 
 @media (max-width: 530px) {
   .mob-none {
@@ -2022,95 +2044,114 @@ margin-left: 0%;
   }
 
   #sentence_div {
-  padding: 50px 16px;
+    padding: 50px 16px;
     width: 100%;
     height: 400px;
     text-align: center;
   }
 
   #navbardown {
-  background-color: #EEEEF4;
-  position: fixed;
-  top: -80px;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
-  z-index: 7;
-}
-  #navbardown #first_home_nav{
-      background-color: #EEEEF4;
-      height: 80px;
+    background-color: #EEEEF4;
+    position: fixed;
+    top: -80px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 7;
   }
 
-  #navbardown #first_home_nav #fst_hm_title{
+  #navbardown #first_home_nav {
+    background-color: #EEEEF4;
+    height: 80px;
+  }
+
+  #navbardown #first_home_nav #fst_hm_title {
     top: 21%;
   }
 
-  ul#footer li{
+  ul#footer li {
     display: block;
     text-transform: uppercase;
     padding: 0 !important;
     margin: 6%;
   }
-  ul#footer{
-        padding-inline-start: 0px;
-        margin: 12%
+
+  ul#footer {
+    padding-inline-start: 0px;
+    margin: 12%
   }
-#IBelieve_bio{
-  margin-top: 40%;
-  font-size: 35px;
-  margin-bottom: 30%;
-}
 
-#bio_row div p {
-  font-size: 16px;
-}
+  #IBelieve_bio {
+    margin-top: 40%;
+    font-size: 35px;
+    margin-bottom: 30%;
+  }
 
-#number-gif {
-  font-size: 16px !important;
-}
-#caption-gif  {
-  font-size: 16px !important;
-  text-align: left;
-}
-
-#photos_pezo{
-  font-size: 3.5rem;
-}
-#containerpezo{
-  padding-top: 24%;
-
-}
-.containerfull{
-    height: 248px;
-}
-#sentence_div_ph {
-  padding-left: 10%;
-  padding-right: 8%;
-  padding-top: 16%;
-  padding-bottom: 14%;
-}
-
-#sentence_div_ph h2 {
-    margin-bottom: 6%;
-}
-#sentence_div_ph p {
+  #bio_row div p {
     font-size: 16px;
+  }
+
+  #number-gif {
+    font-size: 16px !important;
+  }
+
+  #caption-gif {
+    font-size: 16px !important;
+    text-align: left;
+  }
+
+  #photos_pezo {
+    font-size: 3.5rem;
+  }
+
+  #containerpezo {
+    padding-top: 24%;
+  }
+
+  .containerfull {
+    height: 248px;
+  }
+
+  #sentence_div_ph {
+    padding-left: 10%;
+    padding-right: 8%;
+    padding-top: 16%;
+    padding-bottom: 14%;
+  }
+
+  #sentence_div_ph h2 {
+    margin-bottom: 6%;
+  }
+
+  #sentence_div_ph p {
+    font-size: 16px;
+  }
+
+  #phcimitero {
+    width: 100%;
+  }
+
+  #phgenova {
+    width: 100%;
+  }
+
+  #swipeph1 {
+    top: 292%;
+    left: 43.5%;
+  }
+
+  #swipeph2 {
+    top: 732%;
+    left: 43%;
+  }
 }
 
-#phcimitero{
-  width: 100%;
-}
-#phgenova{
-  width: 100%;
-}
+@media (max-width: 400px) {
+  #swipeph1 {
+    top: 246%;
+  }
 
-#swipeph1 {
-
-  top: 307%;
-  left: 41.5%;
-
-}
-
-
+  #swipeph2 {
+    top: 613%;
+  }
 }
