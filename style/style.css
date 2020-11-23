@@ -1706,7 +1706,8 @@ ul#menu a {
   #space2 {
     width: 30.8%;
   }
-  .title .caption-project{
+
+  .title .caption-project {
     text-align: left;
   }
 
@@ -1951,36 +1952,36 @@ ul#menu a {
 
   .bea-tit {
     font-size: 5.9rem;
-
   }
 
   .descr {
     font-size: 20px;
   }
-
-
-
 }
 
 @media (max-width: 991px) {
-  .specifiche p{
-    width:100%;
+  .specifiche p {
+    width: 100%;
   }
-  .tit_yellow{
+
+  .tit_yellow {
     margin-top: 0;
   }
-  .descr{
+
+  .descr {
     margin-top: 6%;
   }
-  #nopad{
+
+  #nopad {
     padding: 0;
     margin-bottom: 4%;
   }
+
   .containerflow {
     margin-top: -43%;
   }
-
 }
+
 @media (max-width: 900px) {
   #home_bio_sez img {
     top: 35% !important;
@@ -2136,13 +2137,16 @@ ul#menu a {
   #footer {
     margin-top: 6%;
   }
+
   .containerflow {
     margin-top: -48%;
   }
-  .caption-project, .tit-project{
+
+  .caption-project, .tit-project {
     font-size: 0.8rem !important;
   }
-  .label_project{
+
+  .label_project {
     height: 91px;
   }
 }
@@ -2152,11 +2156,13 @@ ul#menu a {
     display: none !important;
   }
 }
+
 @media (max-width: 800px) {
   .containerflow {
     margin-top: -58%;
   }
 }
+
 @media (max-width: 776px) {
   .containerflow {
     margin-top: -64%;
@@ -2390,31 +2396,56 @@ ul#menu a {
   opacity: 0;
   margin-bottom: 8%;
 }
+
 .bea-tit {
-    font-size: 2.9rem;
+  font-size: 2.9rem;
 }
+
 .containerflow {
-    margin-top: -124%;
+  margin-top: -124%;
 }
-.descr{
+
+.descr {
   font-size: 16px;
 }
-.containerfull_pro{
+
+.containerfull_pro {
   background-position: center 16%;
   height: 744px;
 }
+
 .large_pic_cap p {
   font-size: 1rem;
 }
+
 .large_pic {
-    padding: 0px 6.5%;
+  padding: 0px 6.5%;
+  margin-top: 30%;
+  overflow: scroll;
 }
 
-.large_pic img:hover{
-  transform: scale(1.5); /* (150% zoom)*/
+.large_pic img:hover {
+  width: 230%;
+  margin-left: -10%;
 }
 
-.label_project{
+#zoom{
+  position:absolute;
+  top: 35%;
+  left: 36%;
+  display: inline-block;
+  color: #EEEEF4;
+  font-family: 'Bangla MN';
+  font-weight: normal;
+  font-size: 15px;
+  z-index: 6;
+  cursor: pointer;
+  opacity: 0;
+  animation: lamp 2s ease-in-out 2.2s infinite alternate;
+  text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
+}
+
+.label_project {
   margin-left: -10%;
 }
 
@@ -2428,7 +2459,6 @@ ul#menu a {
     width: 120%;
     opacity: 1;
   }
-
 }
 
 @media (max-width: 400px) {
@@ -2482,9 +2512,9 @@ ul#menu a {
     }
   }
 }
-@media (max-width: 992px){
 
-  .pan_pro{
+@media (max-width: 992px) {
+  .pan_pro {
     margin-bottom: 8%;
   }
 }
