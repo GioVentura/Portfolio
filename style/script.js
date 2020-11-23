@@ -13,3 +13,31 @@ function scrollFunction() {
   }
 
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	00. zoom
+/*-----------------------------------------------------------------------------------*/
+  function canczoom(){
+
+    var zoom = document.querySelector('#zoom');
+    var ics = document.querySelector('#ics');
+    var pic = document.querySelector('.pic');
+
+    	ics.style.display = 'block';
+    	zoom.style.display = 'none';
+      pic.style.width = '230%';
+      pic.style.margin = '0 0 0 -10%';
+
+  }
+
+  function closeZoom(){
+
+    var ics = document.querySelector('#ics');
+    var pic = document.querySelector('.pic');
+
+    	pic.style.width = '100%';
+      ics.style.display = 'none';
+      pic.style.margin = '0 0 0 0%';
+      zoom.style.display = 'block';
+
+  }

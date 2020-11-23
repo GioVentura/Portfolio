@@ -2424,10 +2424,11 @@ ul#menu a {
   overflow: scroll;
 }
 
-.large_pic img:hover {
+/* .large_pic img:hover {
   width: 230%;
   margin-left: -10%;
-}
+} */
+
 
 #zoom{
   position:absolute;
@@ -2443,6 +2444,14 @@ ul#menu a {
   opacity: 0;
   animation: lamp 2s ease-in-out 2.2s infinite alternate;
   text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
+}
+#ics{
+  position:absolute;
+  top: 28%;
+  left: 70%;
+  color: #EEEEF4;
+  text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
+  display: none;
 }
 
 .label_project {
