@@ -920,6 +920,7 @@ ul#footer {
   background-size: 110%;
   padding-top: 19.3%;
   opacity: 0.3;
+  background-position: center 55%;
   animation: zoomOut 1s ease 0s forwards;
 }
 
@@ -941,37 +942,30 @@ ul#footer {
 
 #full_younit {
   background-image: url("images/younit_full.jpg");
-  background-position: center 55%;
 }
 
 #full_fruttare {
   background-image: url("images/fruttare_full.jpg");
-  background-position: center 55%;
 }
 
 #full_lemille {
   background-image: url("images/lemille_full.jpg");
-  background-position: center 55%;
 }
 
 #full_ns {
   background-image: url("images/nomestudio_full.jpg");
-  background-position: center 55%;
 }
 
 #full_wal {
   background-image: url("images/wal_full.jpg");
-  background-position: center 55%;
 }
 
 #full_hotshoppes {
   background-image: url("images/hots_full.jpg");
-  background-position: center 55%;
 }
 
 #full_comunico {
   background-image: url("images/comunico_full.jpg");
-  background-position: center 55%;
 }
 
 .containerflow {
@@ -1596,8 +1590,8 @@ ul#menu a {
     }
 
     .social {
-      margin-left: 60% ;
-      width: 40% ;
+      margin-left: 60%;
+      width: 40%;
     }
   }
 }
@@ -1622,11 +1616,31 @@ ul#menu a {
   #sentence_div {
     padding-left: 30%;
   }
+
+  .containerfull_pro {
+    width: 100%;
+    height: 845px;
+    background-size: 112%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 19.3%;
+    opacity: 0.3;
+    animation: zoomOut 1s ease 0s forwards;
+  }
+
+  .containerflow {
+    margin-top: -7.2%;
+  }
 }
 
 @media (max-width: 1560px) {
   .brnone {
     display: none;
+  }
+
+  .containerflow {
+    margin-top: -10.2%;
   }
 }
 
@@ -1677,6 +1691,10 @@ ul#menu a {
   #futura {
     padding-inline-start: 2%;
   }
+
+  .containerflow {
+    margin-top: -15%;
+  }
 }
 
 @media (max-width: 1305px) {
@@ -1687,6 +1705,9 @@ ul#menu a {
 
   #space2 {
     width: 30.8%;
+  }
+  .title .caption-project{
+    text-align: left;
   }
 
   #home_photo_sez:hover {
@@ -1735,6 +1756,40 @@ ul#menu a {
 
   #RosolinoPilo, #venturaGio, #numeroTel {
     font-size: 2.1rem
+  }
+
+  .containerflow {
+    margin-top: -20%;
+  }
+
+  .bea-tit {
+    font-size: 6.3rem;
+  }
+
+  .tit_yellow {
+    font-size: 21px;
+  }
+
+  .label_project {
+    height: 101px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .containerflow {
+    margin-top: -25%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .containerflow {
+    margin-top: -28%;
+  }
+}
+
+@media (max-width: 1085px) {
+  .containerflow {
+    margin-top: -32%;
   }
 }
 
@@ -1888,8 +1943,44 @@ ul#menu a {
   #futura {
     padding-inline-start: 2%;
   }
+
+  .containerflow {
+    margin-top: -36%;
+    padding: 0 8.3%;
+  }
+
+  .bea-tit {
+    font-size: 5.9rem;
+
+  }
+
+  .descr {
+    font-size: 20px;
+  }
+
+
+
 }
 
+@media (max-width: 991px) {
+  .specifiche p{
+    width:100%;
+  }
+  .tit_yellow{
+    margin-top: 0;
+  }
+  .descr{
+    margin-top: 6%;
+  }
+  #nopad{
+    padding: 0;
+    margin-bottom: 4%;
+  }
+  .containerflow {
+    margin-top: -43%;
+  }
+
+}
 @media (max-width: 900px) {
   #home_bio_sez img {
     top: 35% !important;
@@ -2045,11 +2136,30 @@ ul#menu a {
   #footer {
     margin-top: 6%;
   }
+  .containerflow {
+    margin-top: -48%;
+  }
+  .caption-project, .tit-project{
+    font-size: 0.8rem !important;
+  }
+  .label_project{
+    height: 91px;
+  }
 }
 
 @media (min-width: 800px) {
   .tab-just {
     display: none !important;
+  }
+}
+@media (max-width: 800px) {
+  .containerflow {
+    margin-top: -58%;
+  }
+}
+@media (max-width: 776px) {
+  .containerflow {
+    margin-top: -64%;
   }
 }
 
@@ -2234,57 +2344,81 @@ ul#menu a {
     margin-bottom: 13%;
   }
 
-
   #containerconta {
     left: 5%;
     width: 90%;
     top: 48% !important;
   }
-  #futura{
+
+  #futura {
     width: 100% !important;
     margin-left: 2%;
     padding: 0 3% 0 4%;
+  }
 }
-  }
 
+#RosolinoPilo, #venturaGio, #numeroTel {
+  font-size: 1.6rem;
+  display: block;
+  font-weight: 200;
+}
 
-  #RosolinoPilo, #venturaGio, #numeroTel {
-    font-size: 1.6rem;
+#line {
+  margin-top: 11%;
+  margin-bottom: 12%;
+  opacity: 0.5
+}
 
-      display: block;
-      font-weight: 200;
-  }
+#basedIn, #emailMe, #call, .social li a {
+  font-size: 1rem;
+}
 
-  #line {
-    margin-top: 11%;
-    margin-bottom: 12%;
-    opacity: 0.5
+#futura {
+  padding-inline-start: 0%;
+}
 
-  }
+.social {
+  margin-left: 0%;
+  width: 100%;
+  padding: 0 6%;
+}
 
-  #basedIn, #emailMe, #call, .social li a {
-    font-size: 1rem;
+.social li {
+  display: block;
+  float: none;
+  margin-left: 0%;
+  opacity: 0;
+  margin-bottom: 8%;
+}
+.bea-tit {
+    font-size: 2.9rem;
+}
+.containerflow {
+    margin-top: -124%;
+}
+.descr{
+  font-size: 16px;
+}
+.containerfull_pro{
+  background-position: center 16%;
+  height: 744px;
+}
 
-  }
+.label_project{
+  margin-left: -10%;
+}
 
-  #futura {
-    padding-inline-start: 0%;
-
-  }
-
-  .social {
-    margin-left: 0%;
-    width: 100%;
-    padding: 0 6%;
-  }
-  .social li {
-    display:block;
-    float: none;
-    margin-left: 0%;
+@keyframes appearLabel {
+  0% {
+    width: 0%;
     opacity: 0;
-    margin-bottom: 8%;
   }
 
+  100% {
+    width: 120%;
+    opacity: 1;
+  }
+}
 }
 
 @media (max-width: 400px) {
@@ -2298,7 +2432,7 @@ ul#menu a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*	contacts ipadpro verticale
+/* ipadpro verticale
 /*-----------------------------------------------------------------------------------*/
 @media (min-height: 650px) {
   @media (max-width: 1300px) {
@@ -2338,13 +2472,18 @@ ul#menu a {
     }
   }
 }
+@media (max-width: 992px){
+
+  .pan_pro{
+    margin-bottom: 8%;
+  }
+}
 
 /*-----------------------------------------------------------------------------------*/
-/*	contacts ipad verticale
-  /*-----------------------------------------------------------------------------------*/
+/* ipad verticale
+/*-----------------------------------------------------------------------------------*/
 @media (min-height: 650px) {
   @media (max-width: 1300px) {
-
     #RosolinoPilo, #venturaGio, #numeroTel {
       font-size: 1.9rem
     }
@@ -2356,7 +2495,6 @@ ul#menu a {
     #basedIn, #emailMe, #call, .social li a {
       font-size: 0.8rem
     }
-
 
     .social {
       margin-left: 21%;
