@@ -557,29 +557,28 @@ a.none:hover {
 /*-----------------------------------------------------------------------------------*/
 /*	00. contacts page
 /*-----------------------------------------------------------------------------------*/
-#containerconta{
+#containerconta {
   position: absolute;
-/* top: 29%; */
-bottom: 5%;
-left: 8%;
+  /* top: 29%; */
+  bottom: 5%;
+  left: 8%;
   z-index: 5;
   width: 84%;
 }
 
-#containerconta ul#futura{
+#containerconta ul#futura {
   display: block;
   width: 45%;
 }
 
-#containerconta ul#futura li{
+#containerconta ul#futura li {
   margin-bottom: 8%;
 }
 
-
-.social{
+.social {
   display: block;
-margin-left: 72%;
-padding-top: 1.7%;
+  margin-left: 72%;
+  padding-top: 1.7%;
 }
 
 #fst_hm_bio {
@@ -594,17 +593,16 @@ padding-top: 1.7%;
 }
 
 #video_pilo {
-  width: 102%;
+  width: 104%;
   /* margin-top: -3%; */
   min-width: 100%;
   min-height: 100%;
   position: fixed;
- right: 0;
- bottom: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #basedIn {
-
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -616,7 +614,7 @@ padding-top: 1.7%;
 }
 
 #RosolinoPilo {
-display: inline-block;
+  display: inline-block;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -629,7 +627,6 @@ display: inline-block;
 }
 
 #emailMe {
-
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -641,7 +638,7 @@ display: inline-block;
 }
 
 #venturaGio {
-display: inline-block;
+  display: inline-block;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -654,7 +651,6 @@ display: inline-block;
 }
 
 #call {
-
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -666,7 +662,7 @@ display: inline-block;
 }
 
 #numeroTel {
-display: inline-block;
+  display: inline-block;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -699,7 +695,7 @@ display: inline-block;
 }
 
 #line {
-margin-top: 10%;
+  margin-top: 10%;
   width: 0%;
   background-color: red;
   border-bottom: 0.5px solid #EEEEF4;
@@ -718,7 +714,6 @@ margin-top: 10%;
 }
 
 .social {
-
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -1496,7 +1491,6 @@ ul#menu a {
 /* quando scende la barra di chrome */
 @media (min-height: 880px) and (max-height: 900px) {
   #video_pilo {
-
     width: 102%;
     margin-top: 0;
     margin-left: -1%;
@@ -1552,7 +1546,6 @@ ul#menu a {
 }
 
 /* full full */
-
 @media(min-height:900px) {
   #home_bio_sez {
     height: 938px;
@@ -1573,43 +1566,39 @@ ul#menu a {
   }
 
   #video_pilo {
-    width: 107.5%;
+    width: 110%;
     margin-top: 0;
-    margin-left: -7.5%;
+    margin-left: -8.5%;
   }
+
   #line {
-  margin-top: 12%;
-}
-}
-
-/*-----------------------------------------------------------------------------------*/
-/*	hardvark-laptop
-/*-----------------------------------------------------------------------------------*/
-@media (min-width: 1601px) {
-  .lap_none {
-    display: none;
+    margin-top: 12%;
   }
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	hardvark-desktop
-/*-----------------------------------------------------------------------------------*/
-@media (max-width: 1600px) {
-  .dkt_none {
-    display: none;
+@media (min-height: 540px) {
+  @media (max-width: 950px) {
+    #video_pilo {
+      width: 118%;
+      margin-top: 0;
+      margin-left: -8.5%;
+    }
   }
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	hardvark-tablet
-/*-----------------------------------------------------------------------------------*/
-@media (max-width: 1024px) {
-  .tab_none {
-    display: none;
-  }
+@media (min-height: 540px) {
+  @media (max-width: 950px) {
+    #containerconta {
+      bottom: 2%;
+      left: 4% !important;
+      width: 92% !important;
+      ;
+    }
 
-  .tab_center {
-    text-align: center;
+    .social {
+      margin-left: 60% ;
+      width: 40% ;
+    }
   }
 }
 
@@ -1675,6 +1664,19 @@ ul#menu a {
   .menu__item-text {
     font-size: 6.4rem !important;
   }
+
+  .social {
+    margin-left: 68%;
+    width: 38%;
+  }
+
+  #RosolinoPilo, #venturaGio, #numeroTel {
+    font-size: 2.3rem
+  }
+
+  #futura {
+    padding-inline-start: 2%;
+  }
 }
 
 @media (max-width: 1305px) {
@@ -1724,6 +1726,15 @@ ul#menu a {
   #sentence_div_ph {
     padding-top: 10%;
     padding-bottom: 10%;
+  }
+
+  .social {
+    margin-left: 66%;
+    width: 38%;
+  }
+
+  #RosolinoPilo, #venturaGio, #numeroTel {
+    font-size: 2.1rem
   }
 }
 
@@ -1780,6 +1791,24 @@ ul#menu a {
   #ball {
     height: 15px;
   }
+
+  .social {
+    margin-left: 64%;
+    width: 38%;
+  }
+
+  #containerconta {
+    left: 4.5%;
+    width: 91%;
+  }
+
+  #RosolinoPilo, #venturaGio, #numeroTel {
+    font-size: 1.9rem
+  }
+
+  #basedIn, #emailMe, #call, .social li a {
+    font-size: 0.8rem
+  }
 }
 
 @media (max-width: 1039px) {
@@ -1831,6 +1860,33 @@ ul#menu a {
 
   #ball {
     height: 14px;
+  }
+
+  .social {
+    margin-left: 64%;
+    width: 38%;
+  }
+
+  #containerconta {
+    left: 5%;
+    width: 90%;
+    bottom: 3%;
+  }
+
+  #RosolinoPilo, #venturaGio, #numeroTel {
+    font-size: 1.8rem
+  }
+
+  #line {
+    margin-top: 8%;
+  }
+
+  #basedIn, #emailMe, #call, .social li a {
+    font-size: 0.76rem
+  }
+
+  #futura {
+    padding-inline-start: 2%;
   }
 }
 
@@ -1932,7 +1988,6 @@ ul#menu a {
   #phcimitero {
     width: 100%;
   }
-
 
   #phgenova {
     width: 100%;
@@ -2175,5 +2230,72 @@ ul#menu a {
 
   #swipeph2 {
     top: 613%;
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	contacts ipadpro verticale
+/*-----------------------------------------------------------------------------------*/
+@media (min-height: 650px) {
+  @media (max-width: 1300px) {
+    #video_pilo {
+      width: 100%;
+      position: static;
+      padding: 6%;
+      margin-left: 0;
+      margin-top: 12%;
+    }
+
+    #containerconta {
+      left: 5%;
+      width: 90%;
+      bottom: 4%;
+    }
+
+    #RosolinoPilo, #venturaGio, #numeroTel {
+      font-size: 2rem
+    }
+
+    #line {
+      margin-top: 15%;
+    }
+
+    #basedIn, #emailMe, #call, .social li a {
+      font-size: 0.9rem
+    }
+
+    #futura {
+      padding-inline-start: 2%;
+    }
+
+    .social {
+      margin-left: 22%;
+      width: 71%;
+    }
+  }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	contacts ipad verticale
+  /*-----------------------------------------------------------------------------------*/
+@media (min-height: 650px) {
+  @media (max-width: 1300px) {
+
+    #RosolinoPilo, #venturaGio, #numeroTel {
+      font-size: 1.9rem
+    }
+
+    #line {
+      margin-top: 13%;
+    }
+
+    #basedIn, #emailMe, #call, .social li a {
+      font-size: 0.8rem
+    }
+
+
+    .social {
+      margin-left: 21%;
+    }
   }
 }
