@@ -2245,8 +2245,8 @@ ul#menu a {
   }
 
   #RosolinoPilo, #venturaGio, #numeroTel {
-    font-size: 0.9rem;
-      text-align:center;
+    font-size: 1.6rem;
+
       display: block;
       font-weight: 200;
   }
@@ -2259,26 +2259,25 @@ ul#menu a {
   }
 
   #basedIn, #emailMe, #call, .social li a {
-    font-size: 0.6rem;
-    text-align:center;
+    font-size: 1rem;
+
   }
 
   #futura {
     padding-inline-start: 0%;
-    margin-left: -1%;
+
   }
 
   .social {
     margin-left: 0%;
     width: 100%;
-    padding: 0;
+    padding: 0 6%;
   }
   .social li {
     display:block;
     float: none;
     margin-left: 0%;
     opacity: 0;
-    text-align: center;
     margin-bottom: 8%;
   }
 
