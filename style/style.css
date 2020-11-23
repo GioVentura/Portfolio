@@ -557,6 +557,30 @@ a.none:hover {
 /*-----------------------------------------------------------------------------------*/
 /*	00. contacts page
 /*-----------------------------------------------------------------------------------*/
+#containerconta{
+  position: absolute;
+top: 29%;
+left: 8%;
+  z-index: 5;
+  width: 84%;
+}
+
+#containerconta ul#futura{
+  display: block;
+  width: 45%;
+}
+
+#containerconta ul#futura li{
+  margin-bottom: 8%;
+}
+
+
+.social{
+  display: block;
+margin-left: 72%;
+padding-top: 1.7%;
+}
+
 #fst_hm_bio {
   position: absolute;
   top: 70%;
@@ -574,9 +598,7 @@ a.none:hover {
 }
 
 #basedIn {
-  position: absolute;
-  left: 8.2%;
-  top: 31%;
+
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -588,9 +610,7 @@ a.none:hover {
 }
 
 #RosolinoPilo {
-  position: absolute;
-  left: 8.2%;
-  top: 34%;
+display: inline-block;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -603,9 +623,7 @@ a.none:hover {
 }
 
 #emailMe {
-  position: absolute;
-  left: 8.2%;
-  top: 52%;
+
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -617,9 +635,7 @@ a.none:hover {
 }
 
 #venturaGio {
-  position: absolute;
-  left: 8.2%;
-  top: 54%;
+display: inline-block;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -632,9 +648,7 @@ a.none:hover {
 }
 
 #call {
-  position: absolute;
-  left: 8.2%;
-  top: 67%;
+
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
@@ -646,9 +660,7 @@ a.none:hover {
 }
 
 #numeroTel {
-  position: absolute;
-  left: 8.2%;
-  top: 69.5%;
+display: inline-block;
   color: #EEEEF4;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
@@ -681,9 +693,7 @@ a.none:hover {
 }
 
 #line {
-  position: absolute;
-  left: 8%;
-  top: 90%;
+margin-top: 10%;
   width: 0%;
   background-color: red;
   border-bottom: 0.5px solid #EEEEF4;
@@ -697,14 +707,12 @@ a.none:hover {
   }
 
   100% {
-    width: 84%;
+    width: 100%;
   }
 }
 
 .social {
-  position: absolute;
-  right: 1%;
-  top: 92.2%;
+
   color: #EEEEF4;
   font-family: 'Arimo', sans-serif;
   font-style: normal;
