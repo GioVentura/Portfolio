@@ -2221,6 +2221,66 @@ ul#menu a {
     top: 732%;
     left: 43%;
   }
+
+  #video_pilo {
+    width: 100%;
+    position: static;
+    padding: 6%;
+    margin-left: 0;
+    margin-top: 15%;
+  }
+
+
+  #containerconta {
+    left: 5%;
+    width: 90%;
+    top: 48% !important;
+  }
+  #futura{
+    width: 100% !important;
+    margin:0;
+  }
+  #futura li{
+    margin-bottom: 12%;
+  }
+
+  #RosolinoPilo, #venturaGio, #numeroTel {
+    font-size: 0.9rem;
+      text-align:center;
+      display: block;
+      font-weight: 200;
+  }
+
+  #line {
+    margin-top: 14%;
+    margin-bottom: 12%;
+    opacity: 0.5
+
+  }
+
+  #basedIn, #emailMe, #call, .social li a {
+    font-size: 0.6rem;
+    text-align:center;
+  }
+
+  #futura {
+    padding-inline-start: 0%;
+    margin-left: -1%;
+  }
+
+  .social {
+    margin-left: 0%;
+    width: 100%;
+    padding: 0;
+  }
+  .social li {
+    display:block;
+    float: none;
+    margin-left: 0%;
+    opacity: 0;
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 400px) {
