@@ -2403,6 +2403,16 @@ ul#menu a {
   background-position: center 16%;
   height: 744px;
 }
+.large_pic_cap p {
+  font-size: 1rem;
+}
+.large_pic {
+    padding: 0px 6.5%;
+}
+
+.large_pic img:hover{
+  transform: scale(1.5); /* (150% zoom)*/
+}
 
 .label_project{
   margin-left: -10%;
@@ -2418,7 +2428,7 @@ ul#menu a {
     width: 120%;
     opacity: 1;
   }
-}
+
 }
 
 @media (max-width: 400px) {
