@@ -19,14 +19,116 @@
 
 <body style="background-color:#38383D;">
   <nav id="first_home_nav">
-    <a id="fst_hm_bio" href="contacts.html">contacts</a>
+    <a class="mob-none" id="fst_hm_bio" href="contacts.html">contacts</a>
     <a href="index.html">
       <div id="fst_hm_title">
         <img src="style/images/GioVenturaLogo_light.png">
       </div>
     </a>
-    <a id="fst_hm_works" href="works.html">Works</a>
+    <a class="mob-none" id="fst_hm_works" href="works.html">Works</a>
   </nav>
+
+
+  <nav id="mobnav" class="mob-just" role="navigation">
+    <div id="menuToggle">
+      <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+      <input type="checkbox" />
+
+      <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+      <span style="background: #FFEB37;"></span>
+      <span style="background: #FFEB37;"></span>
+      <span style="background: #FFEB37;"></span>
+
+      <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+      <ul id="menu">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="works.html">
+          <li>Works</li>
+        </a>
+        <a href="bio.html">
+          <li>Bio</li>
+        </a>
+        <a href="photos.html">
+          <li>Photos</li>
+        </a>
+        <a href="contacts.html">
+          <li>Contacts</li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <div class="mob-just" id="navbardown">
+    <nav id="first_home_nav">
+      <a id="arrivo" name="ancora"></a>
+      <a class="mob-none" id="fst_hm_contacts" href="contacts.html">Contacts</a>
+      <a href="index.html">
+        <div id="fst_hm_title">
+          <img src="style/images/GioVenturaLogo.png">
+        </div>
+      </a>
+      <a class="mob-none" id="fst_hm_works" href="works.html">Works</a>
+
+    </nav>
+
+    <!-- mobile nav hamburger -->
+    <nav id="mobnav" class="mob-just" role="navigation">
+      <div id="menuToggle">
+        <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+        <input type="checkbox" />
+
+        <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+        <ul id="menu">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="works.html">
+            <li>Works</li>
+          </a>
+          <a href="bio.html">
+            <li>Bio</li>
+          </a>
+          <a href="photos.html">
+            <li>Photos</li>
+          </a>
+          <a href="contacts.html">
+            <li>Contacts</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
   <div class="container-fluid" style="padding-left: 8%; padding-right: 8%;">
 
     <h1 id="IBelieve_play">I have recently started making playlists, I find it a stimulating practice.

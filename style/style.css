@@ -1733,7 +1733,7 @@ ul#menu a {
     font-size: 8rem;
   }
 
-  #IBelieve_bio {
+  #IBelieve_bio, #IBelieve_play {
     margin-top: 22%;
   }
 
@@ -2274,7 +2274,7 @@ ul#menu a {
     margin: 12%
   }
 
-  #IBelieve_bio {
+  #IBelieve_bio, #IBelieve_play {
     margin-top: 40%;
     font-size: 35px;
     margin-bottom: 30%;
@@ -2478,6 +2478,13 @@ ul#menu a {
 
   #swipeph2 {
     top: 613%;
+  }
+
+  .playcaption p{
+    font-size: 16px
+  }
+  .playcaption h2{
+    font-size: 19px
   }
 }
 
