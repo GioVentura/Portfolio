@@ -121,12 +121,10 @@
     </nav>
   </div>
 
-  <div  class="containerfull mob-none" id="containerpezo">
+  <div  class="containerfull" id="containerpezo">
     <p id="photos_pezo">Photos</p>
   </div>
-  <div mob-just class="containerfull mob-just" id="containerpezomin">
-    <p id="photos_pezo">Photos</p>
-  </div>
+
   <div id="sentence_div_ph">
     <h2>NOT A PHOTOGRAPHER.</h2>
     <p>I don't consider myself as a professional photographer.
@@ -138,7 +136,8 @@
   <div class="container-fluid bottomph" style="padding: 0 10%;">
     <div class="row">
       <div class="col-12 col-lg-6 relative" style="padding: 0;">
-        <img id="phcimitero" src="style/images/cimitero.jpg">
+        <img id="phcimitero" class="mob-none" src="style/images/cimitero.jpg">
+        <img id="phcimitero" class="mob-just" src="style/images/min/cimitero-min.jpg">
         <p class="captionph" style="margin-right: 8%;">Monumental Cemetery, Milano.</p>
       </div>
       <div class="col-12 col-lg-6 relative">
@@ -149,7 +148,7 @@
     <div class="row tab-just">
       <div id="overflow-large">
         <p class="tab-just lamp" id="swipeph1">swipe &#8594;<p>
-            <img id="phfavi" src="style/images/cloudypost.jpg">
+            <img id="phfavi" src="style/images/min/cloudypost-min.jpg">
             <div id="space"></div>
             <p class="captionph" style="display: inline-block; margin-top: 1%;">Cloudy Day in Favignana.</p>
       </div>
@@ -180,11 +179,13 @@
   <div class="bottomph">
     <div class="mob-none" id="space2"></div>
     <div class="sicily">
-      <img src="style/images/duomoNaro.jpg" style="width:100%">
+      <img src="style/images/duomoNaro.jpg" class="mob-none" style="width:100%">
+      <img src="style/images/min/duomoNaro-min.jpg" class="mob-just" style="width:100%">
       <p class="captionph">Ruined Cathedral of Naro, Sicily.</p>
     </div>
     <div class="sicily" style="margin-left: -0.25% !important;">
-      <img src="style/images/agrumi.jpg" style="width:100%">
+      <img src="style/images/agrumi.jpg" class="mob-none" style="width:100%">
+      <img src="style/images/min/agrumi-min.jpg" class="mob-just" style="width:100%">
       <p class="captionph">Sicilian agrumi, Naro, Sicily.</p>
     </div>
   </div>

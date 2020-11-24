@@ -753,9 +753,6 @@ a.none:hover {
 #containerpezo {
   background-image: url("images/pezovon.jpg");
 }
-#containerpezomin {
-  background-image: url("images/pezovon-min.jpg");
-}
 
 .containerfull {
   width: 100%;
@@ -2219,11 +2216,15 @@ ul#menu a {
     left: 0% !important;
     width: 100%;
     top: 0px;
-    background-image: url('images/pezovon-min.jpg');
+    background-image: url('images/min/pezovon-min.jpg');
     background-attachment: scroll;
     background-size: cover !important;
     background-position: 0% 0%;
     height: 719px
+  }
+
+  #containerpezo {
+    background-image: url("images/min/pezovon-min.jpg");
   }
 
   #big_hi {
