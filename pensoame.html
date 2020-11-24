@@ -28,12 +28,109 @@
     <a class="mob-none" id="fst_hm_works" href="works.html">Works</a>
   </nav>
 
+  <nav id="mobnav" class="mob-just" role="navigation">
+    <div id="menuToggle">
+      <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+      <input type="checkbox" />
 
+      <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+      <span style="background: #FFEB37;"></span>
+      <span style="background: #FFEB37;"></span>
+      <span style="background: #FFEB37;"></span>
+
+      <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+      <ul id="menu">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="works.html">
+          <li>Works</li>
+        </a>
+        <a href="bio.html">
+          <li>Bio</li>
+        </a>
+        <a href="photos.html">
+          <li>Photos</li>
+        </a>
+        <a href="contacts.html">
+          <li>Contacts</li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <div class="mob-just" id="navbardown">
+    <nav id="first_home_nav">
+      <a id="arrivo" name="ancora"></a>
+      <a class="mob-none" id="fst_hm_contacts" href="contacts.html">Contacts</a>
+      <a href="index.html">
+        <div id="fst_hm_title">
+          <img src="style/images/GioVenturaLogo.png">
+        </div>
+      </a>
+      <a class="mob-none" id="fst_hm_works" href="works.html">Works</a>
+
+    </nav>
+
+    <!-- mobile nav hamburger -->
+    <nav id="mobnav" class="mob-just" role="navigation">
+      <div id="menuToggle">
+        <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+        <input type="checkbox" />
+
+        <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+        <ul id="menu">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="works.html">
+            <li>Works</li>
+          </a>
+          <a href="bio.html">
+            <li>Bio</li>
+          </a>
+          <a href="photos.html">
+            <li>Photos</li>
+          </a>
+          <a href="contacts.html">
+            <li>Contacts</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
 
   <div class="large_pic">
     <p id="zoom" class="mob-just" >tap to zoom</p>
-    <img src="style/images/CoverAlbum_front.jpg">
+    <p id="ics" onclick="closeZoom()" class="mob-just" >&#10005;</p>
+    <img onclick="canczoom()" class="pic" src="style/images/CoverAlbum_front.jpg">
   </div>
   <div class="large_pic_cap">
     <p>Flowers. Personal artwork on a <a id="conosco" href="https://www.instagram.com/unascritturadiluce/">@unascritturadiluce</a> photo. 2018</p>
