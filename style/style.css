@@ -2003,6 +2003,10 @@ ul#menu a {
     display: none !important;
   }
 
+  #full_fruttare {
+    background-image: url("images/min/fruttare_full-min.jpg");
+  }
+
 
   @keyframes appearHi {
 
@@ -2172,7 +2176,7 @@ ul#menu a {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .tab-just {
     display: none !important;
   }
