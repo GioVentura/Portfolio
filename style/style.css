@@ -196,7 +196,7 @@ ul {
   line-height: 63.7%;
   animation: appearHi 1s ease-out 0.1s 1 normal forwards;
 }
-
+ /* the original */
 @keyframes appearHi {
   from {
     opacity: 0;
@@ -1901,7 +1901,18 @@ ul#menu a {
 
   #big_hi {
     font-size: 4.2rem !important;
-    top: 19% !important;
+  }
+  @keyframes appearHi {
+
+    from {
+      opacity: 0;
+      top: -7%;
+    }
+
+    to {
+      opacity: 1;
+      top: 19%;
+    }
   }
 
   #cv {
@@ -1992,8 +2003,18 @@ ul#menu a {
     display: none !important;
   }
 
-  #big_hi {
-    top: 25% !important;
+
+  @keyframes appearHi {
+
+    from {
+      opacity: 0;
+      top: -7%;
+    }
+
+    to {
+      opacity: 1;
+      top: 25%;
+    }
   }
 
   #home_bio_sez {
@@ -2206,12 +2227,24 @@ ul#menu a {
     width: 261px;
     height: 100.86px;
     left: 23px;
-    top: 16% !important;
+    top: -7%;
     font-family: Beatrice Display;
     font-style: italic;
     font-weight: normal;
     font-size: 5rem !important;
     line-height: 63.7%;
+  }
+
+  @keyframes appearHi {
+    from {
+      opacity: 0;
+      top: -7%;
+    }
+
+    to {
+      opacity: 1;
+      top: 16%;
+    }
   }
 
   #big_photos {
