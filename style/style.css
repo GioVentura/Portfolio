@@ -753,6 +753,9 @@ a.none:hover {
 #containerpezo {
   background-image: url("images/pezovon.jpg");
 }
+#containerpezomin {
+  background-image: url("images/pezovon-min.jpg");
+}
 
 .containerfull {
   width: 100%;
@@ -2078,7 +2081,7 @@ ul#menu a {
     z-index: 6;
     cursor: pointer;
     opacity: 0;
-    animation: lamp 2s ease-in-out 2.2s infinite alternate;
+    animation: lamp 1.4s ease-in-out 1.8s infinite alternate;
     text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
   }
 
@@ -2094,7 +2097,7 @@ ul#menu a {
     z-index: 6;
     cursor: pointer;
     opacity: 0;
-    animation: lamp 2s ease-in-out 2.2s infinite alternate;
+    animation: lamp 1.4s ease-in-out 1.8s infinite alternate;
     text-shadow: 0px 0px 8px rgba(20, 20, 20, 1);
   }
 
@@ -2362,12 +2365,12 @@ ul#menu a {
   }
 
   #swipeph1 {
-    top: 292%;
+    top: 337%;
     left: 43.5%;
   }
 
   #swipeph2 {
-    top: 732%;
+    top: 872%;
     left: 43%;
   }
 
@@ -2506,11 +2509,11 @@ ul#menu a {
 
 @media (max-width: 400px) {
   #swipeph1 {
-    top: 246%;
+    top: 311%;
   }
 
   #swipeph2 {
-    top: 613%;
+    top: 768%;
   }
 
   .playcaption p{
