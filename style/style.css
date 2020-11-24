@@ -2540,17 +2540,27 @@ ul#menu a {
   .containerfull_pro{
     height: 717px;
   }
+  #swipeph2{
+    top: 754%;
+  }
+
 }
 @media (max-width: 361px) {
   .containerfull_pro{
     height: 707px;
     background-position: center 18%;
   }
+  #swipeph2{
+    top: 740%;
+  }
 }
 @media (max-width: 348px) {
   .containerfull_pro{
     height: 685px;
   }
+  #swipeph2 {
+    top: 715%;
+}
 }
 
 /*-----------------------------------------------------------------------------------*/
