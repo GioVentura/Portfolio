@@ -2407,7 +2407,7 @@ ul#menu a {
     margin-left: 2%;
     padding: 0 3% 0 4%;
   }
-}
+
 
 #RosolinoPilo, #venturaGio, #numeroTel {
   font-size: 1.6rem;
@@ -2533,10 +2533,11 @@ ul#menu a {
     font-size: 19px
   }
 }
+}
 
 
 /* label pro mob */
-@media (max-width: 373px) {
+@media (max-width: 373px)  and (min-width:550px;) {
   .containerfull_pro{
     height: 717px;
   }
@@ -2545,7 +2546,7 @@ ul#menu a {
   }
 
 }
-@media (max-width: 361px) {
+@media (max-width: 361px) and (min-width:550px;){
   .containerfull_pro{
     height: 707px;
     background-position: center 18%;
@@ -2554,7 +2555,7 @@ ul#menu a {
     top: 740%;
   }
 }
-@media (max-width: 348px) {
+@media (max-width: 348px) and (min-width:550px;){
   .containerfull_pro{
     height: 685px;
   }
