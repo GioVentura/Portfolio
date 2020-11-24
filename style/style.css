@@ -2006,6 +2006,9 @@ ul#menu a {
   #full_fruttare {
     background-image: url("images/min/fruttare_full-min.jpg");
   }
+  #full_younit {
+    background-image: url("images/min/younit_full-min.jpg");
+  }
 
 
   @keyframes appearHi {
