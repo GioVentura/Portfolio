@@ -7,6 +7,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  text-rendering:optimizeLegibility;
 }
 
 *::selection {
@@ -50,33 +51,7 @@ ul {
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'Graphik';
-  src:  url("font/graphik/Graphik-700-Bold.otf");
-  src: url('Graphik-Bold.eot');
-  src: url('Graphik-Bold.eot?#iefix') format('embedded-opentype'),
-    url('Graphik-Bold.woff2') format('woff2'),
-    url('Graphik-Bold.woff') format('woff'),
-    url('Graphik-Bold.ttf') format('truetype'),
-    url('Graphik-Bold.svg#Graphik-Bold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: 'Graphik';
-  src:  url("font/graphik/Graphik-600-Semibold.otf");
-  src: url('Graphik-Semibold.eot');
-  src: url('Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('Graphik-Semibold.woff2') format('woff2'),
-    url('Graphik-Semibold.woff') format('woff'),
-    url('Graphik-Semibold.ttf') format('truetype'),
-    url('Graphik-Semibold.svg#Graphik-Semibold') format('svg');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*	02. DIVISIONE HOME
@@ -490,20 +465,20 @@ a.none:hover {
 /*-----------------------------------------------------------------------------------*/
 #IBelieve_bio {
   margin-top: 15%;
-  font-family: 'Graphik';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 50px;
+  font-weight: 900;
+  font-size: 54px;
   line-height: 120.8%;
   color: #2B2B2D;
 }
 
 #IBelieve_play {
   margin-top: 15%;
-  font-family: 'Graphik';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 50px;
+  font-weight: 900;
+  font-size: 54px;
   line-height: 120.8%;
   color: #EEEEF4;
 }
