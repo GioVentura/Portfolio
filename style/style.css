@@ -2687,9 +2687,27 @@ ul#menu a {
 /*-----------------------------------------------------------------------------------*/
 /* ALBY'S
 /*-----------------------------------------------------------------------------------*/
-@media (max-width: 1800px){
+@media (max-width: 1800px) and (min-width: 1561px){
 
   @media (max-height: 739px){
+    #scroll_please_yellow{
+      display: block
+    }
+  }
+
+}
+@media (max-width: 1561px) and (min-width: 1306px){
+
+  @media (max-height: 643px){
+    #scroll_please_yellow{
+      display: block
+    }
+  }
+
+}
+@media (max-width: 1306px) and (min-width: 1201px){
+
+  @media (max-height: 601px){
     #scroll_please_yellow{
       display: block
     }
