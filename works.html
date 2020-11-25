@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="shortcut icon" href="style/images/fav.png">
   <title>Works - Gioventura</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
   <link rel="stylesheet" type="text/css" href="style/base.98fd6c19.css">
 
   <link rel="stylesheet" href="https://use.typekit.net/utp3beb.css">
@@ -119,9 +119,31 @@
   <!-- Optional JavaScript -->
     <script src="style/js.00a46daa.js"></script>
     <script>
-    if(performance.navigation.type == 2){
-   location.reload(true);
-}
+
+
+
+  //   var perfEntries = performance.getEntriesByType("navigation");
+  //
+  // // if (perfEntries[0].type === "back_forward") {
+  // //     location.reload(true);
+  // //
+  // // }
+  //
+  // console.log(perfEntries[perfEntries.length -1].type);
+//   function timedRefresh(timeoutPeriod) {
+// 	setTimeout("location.reload(true);",timeoutPeriod);
+// }
+
+window.addEventListener( "pageshow", function ( event ) {
+  var historyTraversal = event.persisted ||
+                         ( typeof window.performance != "undefined" &&
+                              window.performance.navigation.type === 2 );
+  if ( historyTraversal ) {
+    // Handle page restore.
+    window.location.reload();
+  }
+});
+
     </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
