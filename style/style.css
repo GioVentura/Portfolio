@@ -2660,3 +2660,32 @@ ul#menu a {
     }
   }
 }
+
+/*-----------------------------------------------------------------------------------*/
+/* fary onlu
+/*-----------------------------------------------------------------------------------*/
+
+CSS
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        .containerflow{
+            display: none !important;
+        }
+    }
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+      .containerflow{
+          display: none !important;
+      }
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+      .containerfull_pro{
+          background-size: 100%;
+      }
+    }
+}
