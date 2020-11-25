@@ -162,12 +162,36 @@ ul {
   height: 48px;
   animation: appearRest 2s ease-in-out 0s 1 normal forwards;
 }
+#scroll_please_yellow{
+  position: absolute;
+  width: 2%;
+  left: 49%;
+  top: 88%;
+  border: 2.4px solid #ffeb37;
+  box-sizing: border-box;
+  border-radius: 15px;
+  z-index: 4;
+  height: 48px;
+  display: none;
+  animation: appearRest 2s ease-in-out 0s 1 normal forwards;
+}
 
 #ball {
   position: absolute;
   left: 20%;
   top: 7%;
   background-color: #fff;
+  width: 60%;
+  height: 18px;
+  z-index: 4;
+  border-radius: 18px;
+  animation: ball 1.2s ease-in-out infinite alternate;
+}
+#ball_yellow {
+  position: absolute;
+  left: 20%;
+  top: 7%;
+  background-color: #ffeb37;
   width: 60%;
   height: 18px;
   z-index: 4;
@@ -1663,12 +1687,12 @@ ul#menu a {
     left: -17%;
   }
 
-  #scroll_please {
+  #scroll_please, #scroll_please_yellow {
     width: 2.4%;
     left: 48.8%;
   }
 
-  #ball {
+  #ball, #ball_yellow{
     height: 16px;
   }
 
@@ -1841,12 +1865,12 @@ ul#menu a {
     left: -22%;
   }
 
-  #scroll_please {
+  #scroll_please, #scroll_please_yellow {
     width: 2.8%;
     left: 48.6%;
   }
 
-  #ball {
+  #ball, #ball_yellow {
     height: 15px;
   }
 
@@ -1921,13 +1945,13 @@ ul#menu a {
     left: -26%;
   }
 
-  #scroll_please {
+  #scroll_please, #scroll_please_yellow {
     width: 3%;
     left: 48.5%;
     height: 43px;
   }
 
-  #ball {
+  #ball, #ball_yellow {
     height: 14px;
   }
 
@@ -2660,7 +2684,18 @@ ul#menu a {
     }
   }
 }
+/*-----------------------------------------------------------------------------------*/
+/* ALBY'S
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 1800px){
 
+  @media (max-height: 739px){
+    #scroll_please_yellow{
+      display: block
+    }
+  }
+
+}
 /*-----------------------------------------------------------------------------------*/
 /* fary onlu
 /*-----------------------------------------------------------------------------------*/
