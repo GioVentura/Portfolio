@@ -2091,8 +2091,8 @@ ul#menu a {
 
   #swipeph1 {
     position: absolute;
-    top: 373%;
-    left: 46%;
+    top: 74%;
+    left: 43.5%;
     display: inline-block;
     color: #EEEEF4;
     font-family: 'Bangla MN';
@@ -2107,8 +2107,8 @@ ul#menu a {
 
   #swipeph2 {
     position: absolute;
-    top: 945%;
-    left: 48%;
+    top: 74%;
+    left: 43.5%;
     display: inline-block;
     color: #EEEEF4;
     font-family: 'Bangla MN';
@@ -2389,15 +2389,6 @@ ul#menu a {
     width: 100%;
   }
 
-  #swipeph1 {
-    top: 337%;
-    left: 43.5%;
-  }
-
-  #swipeph2 {
-    top: 872%;
-    left: 43%;
-  }
 
   #video_pilo {
     width: 100%;
@@ -2534,13 +2525,6 @@ ul#menu a {
 }
 
 @media (max-width: 400px) {
-  #swipeph1 {
-    top: 311%;
-  }
-
-  #swipeph2 {
-    top: 768%;
-  }
 
   .playcaption p{
     font-size: 16px
@@ -2557,9 +2541,7 @@ ul#menu a {
   .containerfull_pro{
     height: 717px;
   }
-  #swipeph2{
-    top: 754%;
-  }
+
   .containerflow {
     margin-top: -123%;
 }
@@ -2573,9 +2555,7 @@ ul#menu a {
   .containerfull_pro{
     height: 717px;
   }
-  #swipeph2{
-    top: 754%;
-  }
+
 
 
 }
@@ -2583,9 +2563,6 @@ ul#menu a {
   .containerfull_pro{
     height: 707px;
     background-position: center 18%;
-  }
-  #swipeph2{
-    top: 740%;
   }
   .containerflow {
     margin-top: -132%;
@@ -2596,9 +2573,6 @@ ul#menu a {
   .containerfull_pro{
     height: 685px;
   }
-  #swipeph2 {
-    top: 715%;
-}
 .containerflow {
   margin-top: -119%;
 }
