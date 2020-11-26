@@ -1920,6 +1920,21 @@ ul#menu a {
     left: -26%;
   }
 
+  #conosco {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140.8%;
+    color: #FFEB37;
+    transition: color 0.7s;
+    border-bottom: 1px #FFEB37 solid;
+  }
+
+  #conosco:hover {
+    text-decoration: none;
+    font-weight: 400;
+  }
+
   #scroll_please, #scroll_please_yellow {
     width: 3%;
     left: 48.5%;
