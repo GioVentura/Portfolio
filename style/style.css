@@ -1994,7 +1994,9 @@ ul#menu a {
   .tit_yellow {
     margin-top: 0;
   }
-
+  .bottomph {
+      margin-bottom: 5%;
+  }
   .descr {
     margin-top: 6%;
   }
