@@ -1044,6 +1044,27 @@ ul#footer {
   width: 180%;
 }
 
+.specifiche ul li a {
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120.8%;
+  color: #EEEEF4;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+.specifiche ul li a:hover {
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120.8%;
+  color: #FFEB37;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
 .bea-tit {
   font-family: 'Beatrice Display' !important;
   font-weight: normal;
