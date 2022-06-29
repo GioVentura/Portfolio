@@ -941,6 +941,10 @@ ul#footer {
   }
 }
 
+#full_cba {
+  background-image: url("style/images/cba_front.jpg");
+}
+
 #full_younit {
   background-image: url("images/younit_full.jpg");
 }
