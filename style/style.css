@@ -1281,6 +1281,7 @@ ul#footer {
   font-weight: 400;
   font-size: 24px;
   line-height: 113.7%;
+  letter-spacing: 0.08rem;
   /* or 27px */
   text-align: center;
   color: #FFEB37;
