@@ -1044,6 +1044,10 @@ ul#footer {
   width: 180%;
 }
 
+.specifiche ul {
+  padding-inline-start: 0px;
+}
+
 .specifiche ul li a {
   font-family: Arimo;
   font-style: normal;
