@@ -1053,13 +1053,12 @@ ul#footer {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 140.8%;
+  line-height: 180%;
   color: #EEEEF4;
-  text-transform: uppercase;
+  text-transform: uppercase,underline;
   margin-top: 2%;
 }
 .specifiche ul li a:hover {
-
   color: #FFEB37;
 }
 
